@@ -6,9 +6,9 @@ date: "2011-09-19"
 slug: "linked-data-platform-architecture-mk-ii"
 ---
 
-Since it's inception as a re-usable toolkit fed from the work we have been doing with the [NHS National Innovation Centre](http://www.nic.nhs.uk/), the [Linked Data Platform](http://atchai.com/portfolio/linked-data-platform) has evolved.  The core functionality is still focussed on taking data from spreadsheets and other structured sources (including SPARQL endpoints) and then visualising this data within a Drupal-based UI.  However, we've learnt a lot along the way and are currently planning and implementing changes in the technology and architecture we use to pursue this goal.
+Since it's inception as a re-usable toolkit fed from the work we have been doing with the [NHS National Innovation Centre](http://www.nic.nhs.uk/), the [Linked Data Platform](http://atchai.com/portfolio/) has evolved.  The core functionality is still focussed on taking data from spreadsheets and other structured sources (including SPARQL endpoints) and then visualising this data within a Drupal-based UI.  However, we've learnt a lot along the way and are currently planning and implementing changes in the technology and architecture we use to pursue this goal.
 
-![Linked Data Platform architecture](/blog/images/dataShuttletechstackdiagram_1.png)
+![Linked Data Platform architecture](/images/dataShuttletechstackdiagram_1.png)
 
 The above diagram depicts the architecture we're working towards.  I'll explain a little about the main changes below:
 
@@ -27,7 +27,7 @@ I've written before about how powerful and flexible datacube is as a way of mode
 ### Data-driven UI
 The goal is a UI for exploring, slicing, and visualising statistical data.  The UI’s structure and content should be driven by the data (stored as RDF datacube), along with an ontology.  Clearly there will application code responsible for rendering the UI, but the rendering methods will be selected based upon properties of the data itself and rules defined in our ontology.  Facets, or similar, will be present in the UI to allow the user to find data, filter data, and select related data.  It would be also advantageous to be able to perform statistical operations across multiple data slices, such as aggregate, average, standard deviation.
 
-[ ![ElasticLists](/blog/images/Screen shot 2011-09-20 at 19.06.13.png) ](http://well-formed-data.net/experiments/elastic_lists/)
+[ ![ElasticLists](/images/Screen shot 2011-09-20 at 19.06.13.png) ](http://well-formed-data.net/experiments/elastic_lists/)
 
 
 A great example of a dynamic UI that I take inspiration from here is the [ElasticLists demo](http://well-formed-data.net/experiments/elastic_lists/) for Nobel Peace Prize winners.  The principle of a responsive UI for filtering data is well executed here, our UI should take this principle and apply it to visualising statistical data.

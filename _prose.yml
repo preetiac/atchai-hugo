@@ -1,21 +1,8 @@
 prose:
   rooturl: 'content'
   media: 'static/images'
-  ignore:
-    - config.toml
-    - wercker.yml
-    - .gitignore
-    - README.md
-    - /archetypes
-    - /data
-    - /layouts
-    - /themes
   metadata:
     content/blog:
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"
       - name: "title"
         field:
           element: "text"
