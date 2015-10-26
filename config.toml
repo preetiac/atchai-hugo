@@ -1,3 +1,7 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://atchai.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Atchai Digital Consultancy London"
+theme = "atchai"
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
