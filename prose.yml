@@ -1,0 +1,52 @@
+prose:
+  rooturl: 'content'
+  media: 'static/images'
+  ignore:
+    - config.toml
+    - wercker.yml
+    - .gitignore
+    - README.md
+    - /archetypes
+    - /data
+    - /layouts
+    - /themes
+  metadata:
+    content/blog:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "The title that your readers see on the page."
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "The meta description."
+      - name: "slug"
+        field:
+          element: "text"
+          label: "Slug"
+          placeholder: "The last part of the URL."
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          placeholder: "Date in format yyyy-mm-dd."
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          options:
+            - name: "Blog"
+              value: "blog"
+          alterable: True
+    static:
+      - name: "url"
+        field:
+          element: "text"
+          label: "Url"
+          value: ""
