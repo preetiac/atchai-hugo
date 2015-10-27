@@ -9,7 +9,7 @@ title: "Naked Internship Part 1: Introducing TodoWhat"
 
 Part 1 of a series exposing what it's like to be an intern engineer at a tech consultancy. In this post I describe the project I was tasked with  - all the assets and code are available as [open source](https://github.com/atchai/todowhat), and the end result is available as a [Saas application](https://todowhat.herokuapp.com/).
 
-TodoWhat is a task management tool built with backbone.js and Flask. It was built as part of my internship at Atchai Digital and we&#39;ve decided to release all the assets that were generated during this project as open source. Please feel free to take the [user stories](https://github.com/atchai/todowhat/wiki/User-Stories) as a starting point, refer to the [code on Github](https://github.com/atchai/todowhat), or use the [hosted app](http://todowhat.herokuapp.com/) to manage your tasks!
+TodoWhat is a task management tool built with backbone.js and Flask. It was built as part of my internship at Atchai Digital and we've decided to release all the assets that were generated during this project as open source. Please feel free to take the [user stories](https://github.com/atchai/todowhat/wiki/User-Stories) as a starting point, refer to the [code on Github](https://github.com/atchai/todowhat), or use the [hosted app](http://todowhat.herokuapp.com/) to manage your tasks!
 
 The project was designed to arm an intern developer with real-world experience in the following:
 
