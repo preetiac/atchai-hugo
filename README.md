@@ -25,7 +25,7 @@ Prose.io will connect to the Github repo, allow you to add/edit content of the s
 
 1.  Go to http://prose.io
 2.  Log into Github and select the atchai/atchai-hugo repo
-3.  You can add or edit files within the "/content" directory.
+3.  You will land in the "/content" directory, can add or edit any file within here.
 4.  Filenames are generated automatically from titles.
 5.  URLs are generated in order of precedence from the URL metadata, then the filename.
 6.  Use the "metadata" button on the RH pane to set the front matter.

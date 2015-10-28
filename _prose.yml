@@ -10,9 +10,9 @@ prose:
           placeholder: "The title that your readers see on the page."
       - name: "description"
         field:
-          element: "text"
+          element: "textarea"
           label: "Description"
-          placeholder: "The meta description."
+          placeholder: "The meta description - often used by Google in search results page."
       - name: "slug"
         field:
           element: "text"
