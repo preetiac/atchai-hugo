@@ -9,7 +9,7 @@ title: "Naked Internship Part 2: How we built TodoWhat"
 
 Part 2 of a series exposing what it's like to be an intern engineer at a tech consultancy.  In this post I describe how my internship project was structured and some of the technology that was used.
 
-# Planning<
+# Planning
 
 "User stories" are used as a starting point to plan development of the application. They are concise sentences summarizing the **who**, **what** and **why** associated with features to be implemented. For example: As a user (*who*), I want to create a todo (*what*), so that I can remember things (*why*).
 
@@ -40,7 +40,7 @@ When this consesus is reached, assignment of story points begins. Be aware that 
 
 *Example assignment of points:*
 
-![Examples points]({{site.baseurl}}/static/images/ni3.png)
+![Examples points](/images/ni3.png)
 
 **tl;dr**: less choice = broader estimation categories = easier to agree on effort categories = less time wasted
 
@@ -71,18 +71,18 @@ We also wanted to ability to rearrange the order of todos in the list. The sorta
 Eventually, an attempt to implement a new feature, [broke an existing one](http://en.wikipedia.org/wiki/Software_regression). Sometimes I would not realise this until quite a while later, making it difficult to track down exactly what change caused the regression. This is where unit testing steps in. The aim of unit testing is essentially (as the name suggests) to test small modules or units of code to ensure they are outputting what is expected.
 For example, one of my tests is simply making sure it is possible to add a todo, and that the content of the todo is what it was created with at the start. There are many testing frameworks to choose from for javascript. The one we settled on for this project was [Jasmine](http://jasmine.github.io/). Jasmine lets you write your tests in a very natural intuitive way. Here's the snippet for the test described above:
 
-  describe("the todo", function(){
-  
-    beforeEach(function(){
-      this.todo = new Todo({
-        content: "A test todo"
+    describe("the todo", function(){
+    
+      beforeEach(function(){
+        this.todo = new Todo({
+          content: "A test todo"
+        });
       });
-    });
-  
-    it("should have content", function(){
-      expect(this.todo.get("content")).toBe("A test todo");
-    });
-  }
+    
+      it("should have content", function(){
+        expect(this.todo.get("content")).toBe("A test todo");
+      });
+    }
 
 Hopefully it's clear right off the bat what is happening by just reading the code. We simply describe what we're testing, "the todo", and what it should be tested for. It's almost readable as plain English! The todo should have content which we expect to be "A test todo".
 
@@ -92,7 +92,7 @@ At this point, you still have to remember to run your tests! Let's take this a s
 
 Enter Travis. Travis is a continuous integration platform that allows you to automate your builds every time you do a git commit. You can specify exactly what it should do in a [hidden file named .travis.yml](http://docs.travis-ci.com/user/build-configuration). After hooking up a git repository, Travis listens for a commit. When it hears one, your build is automatically built and tested.
 
-![Travis builds]({{site.baseurl}}/static/images/ni4.png)
+![Travis builds](/images/ni4.png)
 
 In the event of a failed build, Travis can email you to let you know (or even integrate into chat tools like Flowdock or Hipchat). Now anytime I commit a change which causes a regression, I'm aware of it almost instantly and can take appropriate meaures to fix it.
 
@@ -105,16 +105,16 @@ However, this solution would not really work in an application such as this. Muc
 
 [Browserify](http://browserify.org) can help with this. Using Browserify allows me to require my javascript files in other javascript files like modules, node.js style. I specify a entry point file in my source code and when I'm done coding, browserify starts from the entry file, figures out all the required module dependecies, then bundles up all of the javascript into a single file. This is then the only file I need to include in my HTML. I no longer have to worry about blocking DOM rendering, too many requests, or even the order in which I include my javascript files in my HTML.
 
-Although serving up the concatenated file from Browserify is fine for a public deployment, all the individual files should still be available in the version control repository for other developers to code review and collaborate. This also means that I had to include all the external javascript libraries in the repository. A better way to approach this is to use the Node.js package manager (npm). In a file name `[package.json](https://github.com/ackl/todowhat/blob/master/package.json)`, I simply specify what library/module I want as well as the version, run the `npm install` command and all the javascript depencies get downloaded into a `node_modules` directory. Now only the `package.json` file has to be included in my repository.
+Although serving up the concatenated file from Browserify is fine for a public deployment, all the individual files should still be available in the version control repository for other developers to code review and collaborate. This also means that I had to include all the external javascript libraries in the repository. A better way to approach this is to use the Node.js package manager (npm). In a file name [`package.json`](https://github.com/ackl/todowhat/blob/master/package.json), I simply specify what library/module I want as well as the version, run the `npm install` command and all the javascript depencies get downloaded into a `node_modules` directory. Now only the `package.json` file has to be included in my repository.
 
 There was still a small kink which would slow down my development. Every time I made a change to a source file, I would have to tell Browserify to bundle up my files again before I could see the change. Each time this happened, Browserify would have to read through every source file and recompile. Using watchify alleviates this, by watching for a change in all your source files, and recompiling the changes to the bundle when it sees one.
 
 Using gulp in conjunction with this streamlines the process even further. [Gulp](http://gulpjs.com) is a build tools that allows you to define certain repetitive tasks you may need to do during development in a `gulpfile.js`. Here is my gulp task for watching and recompiling my source files (`browserifySetup` helper function not shown).
 
-  gulp.task('watch', function(){
-      watch = true;
-    browserifySetup('./todowhat/static/js/app.js', 'bundle.js', './todowhat/static/');
-  });
+    gulp.task('watch', function(){
+        watch = true;
+      browserifySetup('./todowhat/static/js/app.js', 'bundle.js', './todowhat/static/');
+    });
 
 Now I can just run `gulp watch` to watchify my files. Since the path to my starting source file is written into the gulp task, I don't have to type it out every time, as when isssuing the browserify/watchify commands. Gulp truly shines as you begin to define more and more tasks. I have a [task](https://github.com/ackl/todowhat/blob/master/gulpfile.js#L9-16) to compile my source files as well as minify them to be ready for deployment. I have a [task](https://github.com/ackl/todowhat/blob/master/gulpfile.js#L44-49) to run my Jasmine tests, and [even one](https://github.com/ackl/todowhat/blob/master/gulpfile.js#L36-42) to run tests every time there is a change!
 
@@ -127,7 +127,7 @@ The back end was only implemented as it was needed, namely to enable having diff
 
 Analogues of the todo and tag models I first created in Backbone were written as SQLAlchemy models for the back end, as well as one for user accounts. More than one todo can have the same tag, and conversely more than one tag can have the same todo. This means there is a many-to-many relation between the todo and tag models, requiring a helper association table. Additionally there is a one-to-many relationship between users and todos, since a user can have many todos (but a todo cannot belong to different users). Here is a visual representation of the database tables:
 
-![Database tables]({{site.baseurl}}/static/images/ni5.png)
+![Database tables](/images/ni5.png)
 
 A nice side effect I found of having a many to many relationship between the tags and todos was the ability to use SQLAlchemy's `count()` query to count the amount of todo models associated with a tag model (or vice versa).
 
@@ -166,15 +166,15 @@ This allows you to write all your views as classes, and routes as methods of the
 
 Example:
 
-from flask.ext.classy import
-
-  class APIView(FlaskView):
-      def index(self):
-          # Sends a GET request to '/api'
-      def get(self, id):
-          # Sends a GET request to '/api/<id>'
-      def post(self, id):
-          # Sends a POST request to '/api/<id>'
+    from flask.ext.classy import
+    
+      class APIView(FlaskView):
+          def index(self):
+              # Sends a GET request to '/api'
+          def get(self, id):
+              # Sends a GET request to '/api/<id>'
+          def post(self, id):
+              # Sends a POST request to '/api/<id>'
 
 To reduce the amount of bot signups, we added email confirmation, requiring users to activate their accounts before logging in.  Each user object in the database table has an `activated` boolean attribute, which is set to false by default. When a user registered for the site, a unique activation URL is generated and sent to them by email.  When the user clicks the link, `activated` is set to true and the user is allowed to log in. Activation links are generated with the `URLSafeSerializer` method from the `ItsDangerous` module as outlined in [this snippet](http://flask.pocoo.org/snippets/50/). Emails are handled with Flask-Mail, using [Mandrill's](https://www.mandrill.com/) SMTP server.
 
