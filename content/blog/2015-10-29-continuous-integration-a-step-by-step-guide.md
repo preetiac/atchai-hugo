@@ -11,7 +11,7 @@ In the software development world, Continuous Integration (CI) is the process of
 
 At Atchai, we have been using many of the components of CI (version control, automated build systems, testing frameworks) for years but only recently have we needed to put them all together into a single, coherent system.
 
-## Our Setup
+## Our Setup
 
 ### Architecture
 
@@ -46,7 +46,7 @@ To give you some context, here’s the software stack/tools we generally use for
 
 ### A Commit (A Day In The Life)
 
-![Untitled-2.jpg]({{site.baseurl}}/static/images/Untitled-2.jpg)
+![Untitled-2.jpg](/images/Untitled-2.jpg)
 
 To give you an idea of how our system works day-to-day I’ll walk you through what happens with a single commit:
 
@@ -63,7 +63,7 @@ To give you an idea of how our system works day-to-day I’ll walk you through w
 * After all functional tests have completed successfully a performance test is run by Siege. On Tarquin’s project the performance test consists of loading various key pages over 10 concurrent connections to the site. Reports on load averages, query usage, etc are determined using New Relic.
 * An email report is sent to Tarquin informing him of any build or test failures
 
-## Installation Instructions
+## Installation Instructions
 
 Had enough of the theory? Let's go...
 
@@ -75,9 +75,9 @@ Had enough of the theory? Let's go...
 * `sudo htpasswd -c /etc/apache2/htpasswd username`
 * `sudo nano /etc/apache2/sites-available/jenkins`
 
-    <VirtualHost *:80>
-        ServerName example.com
-        DocumentRoot "/var/www"
+        <VirtualHost *:80>
+            ServerName example.com
+            DocumentRoot "/var/www"
     
         <Location />
            AuthType Basic
@@ -121,7 +121,7 @@ Had enough of the theory? Let's go...
 * `sudo apt-get install default-jre`
 * Install plugin "Hudson Seleniumhq plugin" in Jenkins
 * [Download selenium server standalone](http://seleniumhq.org/download/) to `/var/lib/jenkins/`
-* `sudo apt-get install xvfb`* 
+* `sudo apt-get install xvfb`
 * `sudo nano /etc/init.d/xvfb`
         #!/bin/bash
         ### BEGIN INIT INFO
@@ -162,7 +162,7 @@ Had enough of the theory? Let's go...
 
 ## What's Next?
 
-![Untitled-23.jpg]({{site.baseurl}}/static/images/Untitled-23.jpg)
+![Untitled-23.jpg](/images/Untitled-23.jpg)
 
 Everything is now ready for your CI system except for the Fabric scripts to actually build the project. The Fabric script for each project will necessarily be different but if you'd like to see an example, especially if you use Drupal, have a look at our [CI project on github](https://github.com/atchai/atchai-ci) which has helper class for installing Drupal using Drush and an example usage of it.
 
