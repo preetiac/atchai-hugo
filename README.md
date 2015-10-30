@@ -15,9 +15,9 @@ Atchai.com marketing website based on Hugo.  This is just a standard hugo projec
 
 
 ##Deployment Workflow
-Wercker has been set up to generate the static site, then deploy to Amazon S3.  This has been set up on JG's Wercker account currently, we should move/share this, and decide on whether we need separate stage / production environments.
+Wercker has been set up to generate the static site, then deploy to Amazon S3.  
 
-The site is currently automatically deployed to:  http://atchai-marketing-stage.s3-website-eu-west-1.amazonaws.com/
+The site is currently automatically deployed to:  http://stage.atchai.com
 
 
 ##Adding / editing content with Prose.io
