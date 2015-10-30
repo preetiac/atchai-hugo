@@ -5,3 +5,27 @@ theme = "atchai"
 [permalinks]
 	page = "/:title/"
 	about = "/:filename/"
+
+[params]
+
+[params.authors]
+
+	[params.authors.JohnGriffin]
+    name  = "John Griffin is my name"
+		thumbnail		= "img link"
+		bio				= "Here is John's bio"
+    
+	[params.authors.PhilipOlivier]
+    name  = "Philip Olivier is my name"
+		thumbnail		= "img link"
+		bio				= "Here is Philip's bio"
+    
+	[params.authors.RobHardwick]
+    name  = "Rob Hardwick is my name"
+		thumbnail		= "img link"
+		bio				= "Here is Rob's bio"
+    
+	[params.authors.AndrewLow]
+    name  = "Andrew Low is my name"
+		thumbnail		= "img link"
+		bio				= "Here is Andrew's bio"

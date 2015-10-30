@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html>
-<body>
-<p>this is a list page</p>
-  {{ range first 10 .Data.Pages }}
-    <h1>{{ .Title }}</h1>
-  {{ end }}
-</body>
-</html>
+{{ partial "header.html" . }}
+
+<h1>Atchai Blog</h1>
+
+{{ range first 10 .Data.Pages }}
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p><time>{{ .Date.Format "2 Jan 2006" }}</time></p>
+    <p>Description</p>
+    <p><a href="{{ .Permalink }}">Read More</a></p>
+    <hr>
+{{ end }}
+
+<p>Pagination</p>
+
+
+{{ partial "footer.html" . }}

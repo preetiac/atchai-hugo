@@ -1,7 +1,14 @@
 {{ partial "header.html" . }}
 
   <h1>{{ .Title }}</h1>
-  <h2>{{ .Date.Format "Mon, Jan 2, 2006" }}</h2>
-  {{ .Content }}
+  
+  <p>{{ .Content }}</p>
+  
+  
+  {{ $author := index .Site.Params.authors .Params.author }}
+  
+  <p>Name: {{ $author.name }}</p>
+  <p>Bio: {{ $author.bio }}</p>
+  <p>Posted on: {{ .Date.Format "2 Jan 2006" }}</p>
 
 {{ partial "footer.html" . }}

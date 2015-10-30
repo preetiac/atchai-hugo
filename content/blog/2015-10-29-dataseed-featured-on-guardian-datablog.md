@@ -5,6 +5,7 @@ date: "2012-11-08"
 tags: null
 published: false
 title: Dataseed featured on Guardian Datablog
+author: "JohnGriffin"
 ---
 
 We're thrilled that our [Dataseed visualisation](http://getdataseed.com/visualise/mortality) of UK mortality statistics has been featured on the [Guardian Datablog](http://www.guardian.co.uk/news/datablog/2012/nov/06/deaths-mortality-rates-cause-death-2011).

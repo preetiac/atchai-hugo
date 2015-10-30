@@ -4,6 +4,7 @@ description: "This is a test blog post."
 tags: [ "technical", "semantic web"]
 date: "2011-09-19"
 slug: "linked-data-platform-architecture-mk-ii"
+author: "JohnGriffin"
 ---
 
 Since it's inception as a re-usable toolkit fed from the work we have been doing with the [NHS National Innovation Centre](http://www.nic.nhs.uk/), the [Linked Data Platform](http://atchai.com/portfolio/) has evolved.  The core functionality is still focussed on taking data from spreadsheets and other structured sources (including SPARQL endpoints) and then visualising this data within a Drupal-based UI.  However, we've learnt a lot along the way and are currently planning and implementing changes in the technology and architecture we use to pursue this goal.

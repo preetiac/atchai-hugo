@@ -5,6 +5,7 @@ date: "2012-03-05"
 tags: null
 published: false
 title: "Continuous Integration - A Step by Step Guide"
+author: "RobHardwick"
 ---
 
 In the software development world, Continuous Integration (CI) is the process of continuously applying quality control to a piece of software in development. What this usually amounts to in practice is having automated systems that build, deploy and test your software each time a change is made. As software complexity increases, and more developers are added to the team, having these types of automated systems in place becomes essential to controlling the quality and cost of projects.

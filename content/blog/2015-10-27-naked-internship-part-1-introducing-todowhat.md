@@ -5,6 +5,7 @@ date: "2014-09-22"
 tags: null
 published: false
 title: "Naked Internship Part 1: Introducing TodoWhat"
+author: "AndrewLow"
 ---
 
 Part 1 of a series exposing what it's like to be an intern engineer at a tech consultancy. In this post I describe the project I was tasked with  - all the assets and code are available as [open source](https://github.com/atchai/todowhat), and the end result is available as a [Saas application](https://todowhat.herokuapp.com/).

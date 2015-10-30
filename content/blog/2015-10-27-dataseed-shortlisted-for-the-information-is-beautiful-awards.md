@@ -5,6 +5,7 @@ date: "2013-10-31"
 tags: null
 published: false
 title: Dataseed shortlisted for the Information Is Beautiful Awards
+author: "JohnGriffin"
 ---
 
 UPDATE:  We won a bronze award for our category!  Many thanks to everyone who voted for us!
