@@ -1,10 +1,11 @@
 ---
 description: null
-slug: "paces-module-drupal-multi-site-alternative"
+slug: "spaces-module-drupal-multi-site-alternative"
 date: "2011-08-20"
 tags: null
 published: false
 title: "Spaces Module as a Drupal Multi-site alternative"
+author: "JohnGriffin"
 ---
 
 If you want to share users, content and configuration between Drupal sites you have several options. The most common approaches are either to use a multi-site architecture, RSS feeds, or domain access module. In this post, I'll discuss an alternative method using Spaces and PURL modules, a highly flexible architecture that enables you to tailor multiple spaces that can appear to be completely independent sites, but which all run from the same Drupal installation.

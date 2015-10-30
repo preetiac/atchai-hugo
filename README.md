@@ -33,21 +33,4 @@ Prose.io will connect to the Github repo, allow you to add/edit content of the s
 8.  To publish, use the "save" button on the RH pane.  Enter a short commit message to describe your changes.
 9.  Wait approx 1 minute and the site will be rebuilt and deployed.
 
-### Migration of blog posts
-* To add a new blog post, go to "content/blog" and click the green "New File" button.  
-* Copy and paste the text of the blog post and format using the wysiwyg editor.  
-* Images should be downloaded in their full size format from Drupal, then uploaded using the wysiwyg.
-    * The full size image should be available for download at:  http://atchai.com/sites/all/files/blog/ _FILENAME_
-    * Use the Image button in the toolbar of prose.io to import
-    * The tag that is inserted has the incorrect path, issues are open to resolve. You will need to manually change the path in the img tag to remove "{{site.baseurl}}/static/".  The path of the image should be "/images/_FILENAME_".  Images are broken in preview but should work on the site.
-* Set up the metadata appropriately.  Use the below as a template, it contains values for this blog post: http://atchai.com/blog/linked-data-platform-architecture-mk-ii
-```
----
-title: "Linked Data Platform Architecture mk. II"
-description: "This is a test blog post."
-tags: [ "technical", "semantic web"]
-date: "2011-09-19 "
-slug: "linked-data-platform-architecture-mk-ii"
----
-```
 
