@@ -13,6 +13,11 @@ prose:
           element: "textarea"
           label: "Description"
           placeholder: "The meta description - often used by Google in search results page."
+      - name: "author"
+        field:
+          element: "textarea"
+          label: "Author"
+          placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
       - name: "slug"
         field:
           element: "text"
