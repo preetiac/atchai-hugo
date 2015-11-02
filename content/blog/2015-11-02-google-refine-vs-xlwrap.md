@@ -35,8 +35,64 @@ It's important to be able to generate multiple triples for each cell in the spre
 
 ## Findings
 
-|Criteria|XLWrap|Google Refine|
-|........|........|........|
+<table>
+<thead>
+<tr>  
+  <th width="33%">Criteria</th>
+  <th width="33%">XLWrap</th>
+  <th width="33%">Google Refine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Overview.</td>
+  <td>Java program designed for the purposes of mapping spreadsheets to RDF.  Uses templates written in trig syntax (similar to Turtle) to describe how to iterate over a spreadsheet, one cell at a time, along with the graph of triples to generate for each cell.  Uses Tika to support a number of spreadsheet formats, and runs a triple store locally so you can edit your templates and run sparql queries against the resultant triples.</td>
+  <td>Binaries available for most platforms, runs a server that you interact with through the browser. The interface is very user-friendly, it's primary goal is to assist with cleaning up messy data, and along with graphical tools there is a rich language to support almost any conceivable operation.  Support XLS, csv, google spreadsheets.  Allows export to a number of formats, including RDF.</td>
+</tr>
+
+<tr>
+  <td>Ability to generate SCOVO or datacube triples from spreadsheet (csv) input.</td>
+  <td>Yes</td>
+  <td>Yes</td>
+</tr>
+
+<tr>
+<td>Capturing provenance throughout the process.</td>
+  <td>No</td>
+  <td>No</td>
+</tr>
+
+<tr>
+<td>Scriptability - able to act as part of an Extract, transform and load (ETL) pipeline.</td>
+  <td>Yes, all transformations are captured in a template file.  A feature we have added to XLWrap is the ability to pass parameters in on the command line that replace tokens in the templates at runtime.</td>
+  <td>Not really, though you can capture a set of transformations in order to play them back over different data, there is no command line utility to help us script repeat processing.  As Refine runs a server you could always simply capture and play back requests, there are more sophisticated approches along this line such as this <a href="https://github.com/PaulMakepeace/refine-client-py">python client library</a> for interacting with Refine server programatically.</td>
+</tr>
+
+<tr>
+<td>Dealing with updates to source data, output only changes.</td>
+  <td>No</td>
+  <td>No</td>
+</tr>
+
+<tr>
+<td>Ease of use.</td>
+  <td>Only for developers who are familiar with turtle and Java.</td>
+  <td>Comparatively, very easy to use.  Comes with installers for main platforms, and a nice graphical interface. </td>
+</tr>
+
+<tr>
+<td>Project momentum and developer community.</td>
+  <td>Not really</td>
+  <td>Yes, lots!</td>
+</tr>
+
+<tr>
+<td>Additional notes</td>
+  <td></td>
+  <td>One very interesting feature is reconciliation, which allows us to query an arbitrary sparql endpoint and use algorithms to normalise our data against references.</td>
+</tr>
+</tbody>
+</table>
 
 **NOTE:** We have made a number of refinements to XLWrap in order to be able to meet some of our criteria.  Our [fork of XLWrap](https://github.com/markbirbeck/xlwrap) is available on Github.
 
