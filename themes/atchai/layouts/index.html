@@ -1,19 +1,218 @@
-{{ partial "header.html" . }}
-<p>this is the homepage</p>
+<!DOCTYPE HTML>
 
-  <h1>posts</h1>
-  {{ range first 10 .Data.Pages }}
-    {{ if eq .Type "blog"}}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    {{ end }}
-  {{ end }}
+<html>
 
-  <h1>pages</h1>
-  {{ range .Data.Pages }}
-    {{ if or (eq .Type "page") (eq .Type "about") }}
-      <h2><a href="{{ .Permalink }}">{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}</a></h2>
-    {{ end }}
-  {{ end }}
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atchai</title>
+    
+    <!-- ADDING CSS -->
+    <link rel="stylesheet" type="text/css" href="dist/css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/index.min.css">
+    
+    <!-- ADDING JAVASCRIPT -->
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
 
+    <!--[if lt IE 9]>
+    <script src="dist/js/html5shiv.min.js"></script>
+    <script src="dist/js/respond.js"></script>
+    <![endif]-->
+</head>
 
-{{ partial "footer.html" . }}
+<body>
+
+	<header class="header landing">
+       
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" href="#"><img src="img/Logo.png"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="navbar-link">Blog</a></li>
+                        <li class="hidden-xs">
+                            <a href="#">
+                                <img class="navbar-brand-img" src="img/Logo.png">
+                                <span class="navbar-brand-text">Atchai</span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="navbar-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <h1 class="animated fadeIn">Beautiful<br>Data-Driven<br><span class="header-strong">Web Applications</span></h1>
+        
+	</header>
+	
+	<section id="content">
+       
+       <article class="hiring hiring-chevron">
+           <div class="hiring-carousel">
+               
+                <div><h2 class="hiring-header">"We're hiring"</h2></div>
+                
+            </div>
+       </article>
+       
+       <article class="about about-chevron">
+           
+            <div class="container about-container">
+               <div class="row row-mod">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-innovation">
+                        <h2 class="about-innovation-header">Start-up<br><span class="about-bold">innovation</span></h2>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-quality">
+                        <h2 class="about-quality-header">Enterprise<br><span class="about-bold">quality</span></h2>
+                    </div>
+                </div>
+                <p class="about-paragraph">Atchai specialises in building sophisticated web applications,<br>SaaS platforms, and cloud services.<br><br>Because we're small and specialised, we offer a highly personal service.<br><br>We love working with start-ups and NFPs, but we&#8217;re also a trusted partner for<br>government and Fortune 500 companies:</p>
+                
+                <div class="about-upper-logos">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img class="about-icon" src="img/Vector-Smart-Object.png">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img class="about-icon" src="img/NHS.png">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img class="about-icon" src="img/Internews.png">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img class="about-icon" src="img/Champions.png">
+                    </div>
+                </div>
+                
+                <div class="about-hr hidden-xs">
+                </div>
+                
+                <div class="about-lower-logos">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <img class="about-icon" src="img/Turner.png">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 about-bank">
+                        <img class="about-icon" src="img/Bank-england.png">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <img class="about-icon" src="img/Parity.png">
+                    </div>
+                </div>
+                
+            </div>
+            
+       </article>
+       
+       <article class="case-study case-study-chevron">
+           <div class="row row-mod case-study-container">
+               <div class="col-lg-6 col-md-6 col-xs-12">
+                   <img class="case-study-image hidden-sm" src="img/device.png">
+               </div>
+               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                   <div class="case-study-text">
+                       <p class="case-study-case">Case study:</p>
+                       <img class="case-study-dataseed" src="img/dataseed.png">
+                       <p class="case-study-simple">Simple, beautiful interactive<br>data visualisation</p>
+                       <div class="case-study-hr hidden-sm hidden-xs">
+                       </div>
+                       <p class="case-study-small">We know what it takes to bring a new<br>product to market.</p>
+                       <p class="case-study-small">Dataseed is an Atchai product, from<br> concept through design, technology, user <br>testing, marketing, and support.</p>
+                       <div class="case-study-winner case-study-square case-study-square-winner">
+                           <p>Information is <br><span class="case-study-beautiful">beautiful</span><br><span class="case-study-strong">award winner</span></p>
+                           <img src="img/winner.png">
+                       </div>
+                       <div class="case-study-guardian case-study-square case-study-square-guardian">
+                           <p>Featured in <br><span class="case-study-strong">the guardian</span></p>
+                           <img src="img/guardian.png">
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+       </article>
+       
+       <article class="skills skills-chevron">
+           <div class="container">
+               <h2 class="skills-header">What can we do for you?</h2>
+               <ul class="skills-list">
+                   <li class="skills-list-item">Agile development</li>
+                   <li class="skills-list-item">User Centred Design</li>
+                   <li class="skills-list-item">Open Source Technology</li>
+                   <li class="skills-list-item">Lean Product Development</li>
+               </ul>
+               <div class="skills-hr hidden-xs">
+               </div>
+               <p class="skills-text">We excel at delivering technically challenging projects. Using an Agile development process, <br>we work collaboratively with you in a transparent and open manner</p>
+               <p class="skills-text">User centred design means that we put your users first. We believe in engaging real endusers<br>in testing the product iteratively throughout development.</p>
+               <p class="skills-text">Our love of new technology and rapidly developing new products is supported by a<br>robust project management process and enterprise-level quality assurance.</p>
+               <p class="skills-text">We leverage and contribute to a broad range of open source software. Our tech stack is always<br>evolving, right now we&#8217;re big fans of Python, javascript, Elasticsearch and Apache Spark in<br>particular, practicing DevOps with Amazon Web Services and Heroku.</p>
+               <div class="row row-mod skills-images">
+                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                       <img class="skills-government" src="img/government.png">
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                       <div class="skills-logos skills-logos-upper">
+                           <img src="img/javascript.png">
+                           <img src="img/heroku.png">
+                           <br class="visible-xs">
+                           <img src="img/python.png">
+                           <img src="img/Layer-16.png">
+                       </div>
+                       <div class="skills-logos skills-logos-lower">
+                           <img src="img/amazonweb.png">
+                           <img src="img/solr.png">
+                           <img src="img/elastic.png">
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </article>
+       
+       <article class="consultation">
+           <div class="container">
+               <h3 class="consultation-header">Free initial consultation</h3>
+               <p class="consultation-lorem">Lorem ipsum is not simply random text. It has roots in a piece of classical making it over 2000 years old.</p>
+               <div class="consultation-hr"></div>
+               <a class="consultation-mobile" href="tel:020-12345-678">020 12345 678</a>
+               <a href="mailto:enquires@atchai.com" class="consultation-email">enquires@atchai.com</a>
+               <div class="consultation-hr"></div>
+               <p class="consultation-map">N4 2hs</p>
+               <a class="consultation-map-bold" href="#">(Map)</a>
+           </div>
+       </article>
+        
+	</section>
+
+    <footer class="footer landing">
+        <div class="container">
+            <div class="footer-left-container">
+                <a href="#"><img class="footer-logo" src="img/Atchai-Logo-Footer.png"></a>
+                <a href="#" class="footer-menu">Blog</a>
+                <a href="#" class="footer-menu">Contact</a>
+                <div class="footer-logos-container">
+                    <a href="#" class="footer-twitter"><i class="footer-fa fa fa-twitter"></i></a>
+                    <a href="#"><i class="footer-fa fa fa-github"></i></a>
+                    <a href="#"><i class="footer-fa fa fa-slideshare"></i></a>
+                    <a href="#"><i class="footer-fa fa fa-rss"></i></a>
+                </div>
+            </div>
+            <div class="footer-right-container">
+                <p class="footer-text">&copy; 2015 Atchai Digital. London Digital Consultancy.<br>Registered Company No: 07395685</p>
+            </div>
+        </div>
+	</footer>
+    
+</body>
+
+</html>
