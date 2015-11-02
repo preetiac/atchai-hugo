@@ -1,4 +1,4 @@
-baseurl = "http://atchai-marketing-stage.s3-website-eu-west-1.amazonaws.com"
+baseurl = "http://stage.atchai.com"
 languageCode = "en-us"
 title = "Atchai Digital Consultancy London"
 theme = "atchai"
