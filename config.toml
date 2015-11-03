@@ -2,6 +2,7 @@ baseurl = "atchai.com"
 languageCode = "en-gb"
 title = "Atchai Digital Consultancy London"
 theme = "atchai"
+relativeurls = true
 canonifyurls = false
 
 [permalinks]
