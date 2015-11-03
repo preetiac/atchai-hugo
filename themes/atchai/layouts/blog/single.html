@@ -1,9 +1,10 @@
 {{ partial "header.html" . }}
-        
-    <img src="/img/blog-header.png" class="blog-image">
+
+    {{ if isset .Params "header_image"  }}
+        <img src="{{ .Params.header_image }}" class="blog-image">
+    {{ end }}
 
 	<section id="content">
-        
         <article class="post container">
                     
               <h1>{{ .Title }}</h1>
@@ -23,7 +24,6 @@
                   </div>
               </div>
         </article>
-        
 	</section>
 
 {{ partial "footer.html" . }}
