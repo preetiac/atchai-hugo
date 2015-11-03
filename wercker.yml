@@ -26,7 +26,7 @@ build:
           echo "Starting build"
     - arjen/hugo-build:
         version: 0.14
-        theme: herring-cove
+        theme: atchai
         flags: --buildDrafts=true
 deploy:
     steps:
