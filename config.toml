@@ -1,7 +1,8 @@
 baseurl = "atchai.com"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Atchai Digital Consultancy London"
 theme = "atchai"
+canonifyurls = false
 
 [permalinks]
 	page = "/:title/"
