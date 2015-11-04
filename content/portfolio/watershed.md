@@ -8,7 +8,7 @@ After our initial consultation we got all the stakeholders together for a requir
 
 Subsequently, we built up a rapid prototype using Drupal and spaces module, a combination enabling you to have separate 'spaces' within a Drupal installation that can be themed to give the appearance of entirely separate sites. The benefit of this approach is that it allows site admins to easily publish and share content between spaces. We also built a workflow system to work in harmony with the Watershed's existing editorial process, while facilitating sharing of content between departments that have historically suffered from digital segregation. 
 
-This prototype forms the basis of the next development phase, nothing is wasted. We trained the development team on how to build out functionality using this spaces, features, and context-based architecture to adhere to Drupal best practices. We've written a blog post soon on using [Spaces to create a multisite-like architecture](http://atchai.com/blog/spaces-module-drupal-multi-site-alternative), it's an new and powerful approach that has been largely overlooked.
+This prototype forms the basis of the next development phase, nothing is wasted. We trained the development team on how to build out functionality using this spaces, features, and context-based architecture to adhere to Drupal best practices. We've written a blog post soon on using [Spaces to create a multisite-like architecture](/blog/spaces-module-drupal-multi-site-alternative), it's an new and powerful approach that has been largely overlooked.
 
 ![Watershed screenshot](/images/iMac_watershed.png) 
 
