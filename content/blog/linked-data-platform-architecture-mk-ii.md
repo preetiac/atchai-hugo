@@ -1,7 +1,7 @@
 ---
 title: "Linked Data Platform Architecture mk. II"
 description: "This is a test blog post."
-tags: [ "technical", "semantic web"]
+tags: null
 date: "2011-09-19"
 slug: "linked-data-platform-architecture-mk-ii"
 author: "JohnGriffin"
