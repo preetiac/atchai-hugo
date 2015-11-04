@@ -37,3 +37,4 @@ deploy:
             bucket_url: $AWS_BUCKET_URL
             source_dir: public/
             delete-removed: true
+            opts: --no-mime-magic --guess-mime-type
