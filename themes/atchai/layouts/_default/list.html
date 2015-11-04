@@ -1,1 +1,18 @@
-<p>default list.html</p>
+{{ partial "header.html" . }}
+       
+{{ if isset .Params "header_image"  }}
+    <img src="{{ .Params.header_image }}" class="blog-image">
+{{ end }}
+
+<section id="content">
+    <article class="post container">
+                
+          <h1>{{ .Title }}</h1>
+
+          {{ .Content }}
+         
+    </article>
+    <hr class="posts-hr">
+</section>
+
+{{ partial "footer.html" . }}
