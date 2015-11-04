@@ -5,12 +5,6 @@ theme = "atchai"
 relativeurls = true
 canonifyurls = false
 
-[permalinks]
-	page = "/:title/"
-	about = "/:filename/"
-
-[params]
-
 [params.authors]
 
 	[params.authors.JohnGriffin]

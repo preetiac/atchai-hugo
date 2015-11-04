@@ -94,7 +94,7 @@ It's important to be able to generate multiple triples for each cell in the spre
 </tbody>
 </table>
 
-**NOTE:** We have made a number of refinements to XLWrap in order to be able to meet some of our criteria.  Our [fork of XLWrap](https://github.com/markbirbeck/xlwrap) is available on Github.
+**NOTE:** We have made a number of refinements to XLWrap in order to be able to meet some of our criteria.  Our [fork of XLWrap](https://github.com/johngriffin/xlwrap) is available on Github.
 
 
 ## Unmet Criteria

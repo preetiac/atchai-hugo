@@ -42,7 +42,7 @@ We don't want fluctuating network bandwidth to affect our results, so it's best 
 
 * First [download JMeter](http:/jakarta.apache.org/site/downloads/), you'll also need a recent copy of the Java JVM running.  On OS X, I moved the downloaded JMeter package to Applications, and then ran it by executing bin/jmeter. 
 
-* If you're new to Jmeter, you can download some sample JMeter [test plans for stress testing a Drupal site](https://launchpad.net/pantheon/jmeter) from the nice guys at Pantheon.  Or just create your own simple plan and point it at your test server on EC2.
+* If you're new to Jmeter, you can download some sample JMeter [test plans for stress testing a Drupal site](https://pantheon.io) from the nice guys at Pantheon.  Or just create your own simple plan and point it at your test server on EC2.
 
 * Now we have a basic test plan in place, we should spin up another EC2 instance that we'll use to generate the load on our test server.  This will provide more reliable results as we're removing our local network bandwidth from the equation.  We'll still use our local JMeter to control the remote load generator.  We used a [prebuilt AMI that comes with Ubuntu and JMeter already installed](http://developer.amazonwebservices.com/connect/entry!default.jspa;jsessionid=700DA838F87580F7FCABEEBBF6F4C1F4?categoryID=223&externalID=2255&fromSearchPage=true).  JMeter has some [good documentation](http://jakarta.apache.org/jmeter/usermanual/remote-test.html) on how to tell your local JMeter to connect to the remote machine, in essence you need to add the remote machine's IP address to your local jmeter.properties file.
 
@@ -59,4 +59,3 @@ We don't want fluctuating network bandwidth to affect our results, so it's best 
 
 * [Using JMeter to test performance of Drupal with authenticated users - Rain City](http://www.agileapproach.com/blog-entry/using-jmeter-test-performance-drupal-authenticated-users)
 
-* [Load testing EC2 and JMeter](http://raincityconsulting.com/content/load-testing-ec2-and-jmeter)
