@@ -15,20 +15,20 @@ canonifyurls = false
 
 	[params.authors.JohnGriffin]
     name  = "John Griffin"
-		thumbnail		= "/img/vacant2.jpg"
+		thumbnail		= "/img/authors/vacant2.jpg"
 		bio				= "John’s background is as a software developer and technical leader. He has spent the last ten years developing innovative software for the web. In his past lives he's led the development of projects for Amnesty International, BBC, NHS National Innovation Centre, Turner Broadcasting, UEFA and WWF, amongst others."
     
 	[params.authors.PhilipOlivier]
     name  = "Philip Olivier"
-		thumbnail		= "/img/philip_olivier_profile.png"
+		thumbnail		= "/img/authors/philip_olivier_profile.png"
 		bio				= "Philip makes light work out of keeping projects on track, and clients happy. He excels at bridging the gap between user and technology. From the Discovery Phase, through research, delivery, and testing, Philip will be keeping the client well informed, and the delivery team motivated. He’s a Certified ScrumMaster (CSM) but also brings with him a wide range of experience from working in the charity, legal, and film industries. He also cooks a mean barbecue."
     
 	[params.authors.RobHardwick]
     name  = "Rob Hardwick"
-		thumbnail		= "/img/rob_action.jpg"
+		thumbnail		= "/img/authors/rob_action.jpg"
 		bio				= "Previously Head of Technology at Nameless Media Group, Rob's been mastering his art since he started coding at the tender age of 12. He’s worked on projects for clients such as HSBC, Colston Hall, University of Bristol, Sustrans, RFU and Ofcom. He brings with him not only a wealth of experience, but also a keen eye for perfection when it comes to building modern, standards-compliant, beautiful and usable websites."
     
 	[params.authors.AndrewLow]
     name  = "Andrew Low"
-		thumbnail		= "/img/andrew.png"
+		thumbnail		= "/img/authors/andrew.png"
 		bio				= "Andrew joined us mid 2014 on an internship programme. He's a recent graduate in Astrophysics from the University of London. During his time with Atchai, Andrew has developed a good working knowledge of how to build web applications using HTML, CSS, Javascript and Python. In his spare time he's a keen photographer and pianist."

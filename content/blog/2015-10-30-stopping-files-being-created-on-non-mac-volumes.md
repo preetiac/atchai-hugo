@@ -5,6 +5,7 @@ date: "2010-08-19"
 tags: null
 published: false
 title: "Stopping ._ files being created on non-Mac volumes"
+author: JohnGriffin
 ---
 
 When editing a file on a non-Mac volume (e.g. when editing files on a samba share) you may notice that an additional file gets created along with the one you're editing, prefixed with "._". 
