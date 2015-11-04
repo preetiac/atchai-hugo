@@ -1,0 +1,26 @@
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>about-us/careers</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith>about-us</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith/>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>about-us/team</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith>about-us</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+</RoutingRules>

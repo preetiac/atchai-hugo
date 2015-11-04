@@ -6,6 +6,7 @@ Atchai.com marketing website based on Hugo.  This is just a standard hugo projec
 * Hugo config in /config.toml
 * Werker config in /wercker.yml
 * Prose.io config in /prose.yml
+* S3 redirect rules in redirects.xml
 
 ##Getting Started
 1.  ```git clone https://github.com/atchai/atchai-hugo```
