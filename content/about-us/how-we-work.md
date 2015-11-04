@@ -33,9 +33,7 @@ Being Agile helps us deliver **maximum value**. The client can weigh the busines
 
 The diagram below describes a basic project cycle. Each project begins with a discovery phase and is followed by any number of iterative development cycles. Each cycle or 'sprint' is 2-4 weeks. 
 
-<div class="img-left">
 <img src="/images/sprint1.png" alt="Agile sprint iterative development" title="" />
-</div>
 
 ### Discovery
 

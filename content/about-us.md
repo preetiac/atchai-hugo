@@ -6,7 +6,7 @@ date = "2014-09-27"
 
 Atchai is a digital consultancy and development house specialising in open source data-driven applications. 
 
-Our work is driven by new technology, user centred design and [Agile methodologies](about-us/how-we-work) to deliver consistently great results. What makes us different is the team we work with; all our people are experts in their field and have world-class credentials to back it up. We think creatively about technology and implement it strategically. We invest in new and interesting ideas and regularly release open-source code to the community. Our recent clients include the Bank of England, UEFA, NHS National Innovation Centre, Turner Broadcasting, Internews, and Mencap, along with a number of smaller organisations whom we love just as much. 
+Our work is driven by new technology, user centred design and [Agile methodologies](/about-us/how-we-work) to deliver consistently great results. What makes us different is the team we work with; all our people are experts in their field and have world-class credentials to back it up. We think creatively about technology and implement it strategically. We invest in new and interesting ideas and regularly release open-source code to the community. Our recent clients include the Bank of England, UEFA, NHS National Innovation Centre, Turner Broadcasting, Internews, and Mencap, along with a number of smaller organisations whom we love just as much. 
 
 To find out about what we can do for you, [give us a call or send us an email](#contact).
 
