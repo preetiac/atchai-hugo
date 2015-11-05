@@ -5,8 +5,11 @@ theme = "atchai"
 relativeurls = true
 canonifyurls = false
 
-[params.authors]
 
+[params]
+  metadescription = "Atchai specialises in building sophisticated web applications, and cloud services using big data technology."
+
+[params.authors]
 	[params.authors.JohnGriffin]
     name  = "John Griffin"
 		thumbnail		= "/img/authors/vacant2.jpg"
