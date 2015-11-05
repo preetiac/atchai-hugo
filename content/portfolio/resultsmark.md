@@ -6,6 +6,6 @@ title: ResultsMark
 
 ![resultsmark screenshot](/images/resultsmark-screen_0.png) 
 
-ResultsMark's open reporting standards are being developed in partnership with trusts and foundations, central government, Big Society Capital, Big Lottery Fund, NAVCA, corporates, social investors, the SROI network, researchers and many other organisations and local public agencies 
+ResultsMark's open reporting standards are being developed in partnership with trusts and foundations, central government, Big Society Capital, Big Lottery Fund, NAVCA, corporates, social investors, the SROI network, researchers and many other organisations and local public agencies.
 
 
