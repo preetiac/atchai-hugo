@@ -1,0 +1,40 @@
+html, body
+    height: 100%
+    
+body
+    translateZ(0)
+        
+header.landing
+    width: 100%
+    background-image: url('/img/bg.png');
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative
+    background-position: center
+    text-align: center
+    
+    h1
+        font-family: Raleway-Medium, sans-serif
+        text-transform: uppercase
+        color: $header-h1
+        letter-spacing: 1.5px
+        font-size: 43px
+        padding-bottom: 200px
+        animation: fadein 1s
+        
+    .header-strong
+        font-family: Raleway-Bold, sans-serif
+        
+    @media screen and (max-width: 767px)
+        
+        h1
+            font-size: 36px
+        
+h1, h2, h3, h4, h5
+    -webkit-font-smoothing: antialiased
+            
+section.index
+    z-index: 1
+    position: relative
+    bottom: 80px
+    margin-bottom: -80px
