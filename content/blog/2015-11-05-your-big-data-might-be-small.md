@@ -24,6 +24,7 @@ The data from the client was in the following format:
 As we were using Spark the natural choice was to use [Scala](http://www.scala-lang.org/) to write the program which turned out to be a lot of fun! Due to the functional nature of the language we had to learn some new techniques for transforming data but it was still less painful than Java (sorry!).
 
 The basic steps we took in the program were as follows (see [the source](https://github.com/atchai/small-data/blob/master/spark/src/main/scala/SmallData.scala) for more detail):
+
 1. Create a map of user IDs to user names from the plain text file
 2. Create an [RDD](http://spark.apache.org/docs/latest/programming-guide.html#resilient-distributed-datasets-rdds) of comments and associated user IDs from MongoDB (using the [MongoDB Hadoop library](https://docs.mongodb.org/ecosystem/tutorial/getting-started-with-hadoop/))
 3. Tokenise the comments so for each user we have a number of tuples in the form (user_id, token)
@@ -46,6 +47,7 @@ In my spare time I'd been experimenting with some of the cool new features of th
 Thinking about how much easier C++ had become along with the fact that the data we were prototyping with was well within the range of typical RAM these days led me to try a simpler approach. The (slightly naive) C++ implementation I came up with gave us a 5-fold increase in speed, which was a big advantage in productivity.
 
 The process used in this version was as follows (again, see [the source](https://github.com/atchai/small-data/blob/master/cpp/src/) for more detail):
+
 1. Create a map of user IDs to user names from the plain text file
 2. Read in comments directly from the BSON data dump using [libbson](https://github.com/mongodb/libbson)
 3. Tokenise the comments, hash each token and store a map of users and their respective token counts
