@@ -9,9 +9,19 @@ header.landing
     background-image: url('/img/bg.png');
     background-repeat: no-repeat
     background-size: cover
+    background-attachment: fixed
     position: relative
     background-position: center
     text-align: center
+    
+    @media only screen and (device-width: 768px)
+        background-attachment: scroll
+        
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
+        background-attachment: scroll
+        
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)
+        background-attachment: scroll
     
     h1
         font-family: Raleway-Medium, sans-serif
