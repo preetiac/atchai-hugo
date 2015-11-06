@@ -27,7 +27,7 @@ build:
     - arjen/hugo-build:
         version: 0.14
         theme: atchai
-        flags: --buildDrafts=true
+        flags: --buildDrafts=false
 deploy:
     steps:
         # Execute the s3sync deploy step, a step provided by wercker
