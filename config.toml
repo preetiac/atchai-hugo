@@ -7,13 +7,13 @@ canonifyurls = false
 
 
 [params]
-  metadescription = "Atchai specialises in building sophisticated web applications, and cloud services using big data technology."
+  metadescription = "Atchai specialises in building sophisticated web applications, and digital products using big data technology."
 
 [params.authors]
 	[params.authors.JohnGriffin]
     name  = "John Griffin"
 		thumbnail		= "/img/authors/vacant2.jpg"
-		bio				= "John’s background is as a software developer and technical leader. He has spent the last ten years developing innovative software for the web. In his past lives he's led the development of projects for Amnesty International, BBC, NHS National Innovation Centre, Turner Broadcasting, UEFA and WWF, amongst others."
+		bio				= "John’s background is as a software developer and technical leader. He has spent the last 12 years developing innovative digital products for clients including Amnesty International, BBC, NHS, Bank of England, Turner Broadcasting, UEFA and WWF, amongst others."
     
 	[params.authors.PhilipOlivier]
     name  = "Philip Olivier"

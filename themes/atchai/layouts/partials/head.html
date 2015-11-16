@@ -2,6 +2,21 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{ .Title }} - Atchai</title>
+    <meta name="description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@atchai">
+    <meta name="twitter:title" content="{{ .Title }} - Atchai">
+    <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{{ .Title }} - Atchai" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://atchai.com{{ .Permalink }}" />
+    <meta property="og:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}" /> 
+    <meta property="og:site_name" content="Atchai" />
+    <meta property="fb:admins" content="688546114" />
     
     <!-- ADDING CSS -->
     <link rel="stylesheet" type="text/css" href="/dist/css/index.min.css">
@@ -31,5 +46,4 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
 </head>
