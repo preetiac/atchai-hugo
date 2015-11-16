@@ -55,6 +55,12 @@
       ga('send', 'pageview');
     }
     </script>
+    
+    <!-- Show sumo me sharing on blog -->
+    {{if eq .Section "blog"}}
+         <script src="//load.sumome.com/" data-sumo-site-id="54f8f8e1e3fd17edc1df24652d76af0606148632b0b96923914276f4d3bfa148" async="async"></script>
+    {{end}}
+    
 </body>
 
 </html>
