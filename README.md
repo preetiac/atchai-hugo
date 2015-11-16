@@ -8,20 +8,30 @@ Atchai.com marketing website based on Hugo.  This is just a standard hugo projec
 * Prose.io config in /prose.yml
 * S3 redirect rules in redirects.xml
 
-##Getting Started
+## Getting Started
 1.  ```git clone https://github.com/atchai/atchai-hugo```
 2.  Install Hugo:  http://gohugo.io/overview/installing/
 3.  Run local development server, watching filesystem for changes and live reloading in browser
 ```hugo server --watch --verbose```
 
 
-##Deployment Workflow
+## JS / CSS Pipeline
+* ```cd themes/atchai/static```
+* ```bower install```
+* add bower dependencies into src folder
+* compile /src/sass/index.sass into /dist/css/index.min.css
+* compile /src/respond/src/respond.js into /dist/js/respond.min.js
+* compile /src/bootstrap-sass/assets/javascript/bootstrap.js into /dist/js/bootstrap.min.js
+* copy /src/html5shiv/dist/html5shiv.min.js into /dist/js directory
+* copy /src/jquery/dist/jquery.min.js into /dist/js directory
+
+## Deployment Workflow
 Wercker has been set up to generate the static site, then deploy to Amazon S3.  
 
 The site is currently automatically deployed to:  http://stage.atchai.com
 
 
-##Adding / editing content with Prose.io
+## Adding / editing content with Prose.io
 Prose.io will connect to the Github repo, allow you to add/edit content of the site, and then commit these changes.  Once your changes are committed and pushed, Wercker will automatically deploy.
 
 1.  Go to http://prose.io
