@@ -1,7 +1,7 @@
 ---
 description: null
 slug: "naked-internship-part-4-storing-passwords-securely"
-date: "2014-15-11"
+date: "2014-11-15"
 tags: 
   - "null"
 published: false
@@ -9,6 +9,7 @@ title: "Naked Internship Part 4: Storing Passwords Securely"
 author: AndrewLow
 header_image: ""
 ---
+
 
 
 Part 4 of a series exposing what it's like to be an intern engineer at a tech consultancy. In this post I get into detail on how to use cryptography and store passwords securely.
