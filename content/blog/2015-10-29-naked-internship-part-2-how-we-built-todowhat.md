@@ -1,12 +1,15 @@
 ---
 description: null
 slug: "naked-internship-part-2-how-we-built-todowhat"
-date: "2014-09-22"
-tags: null
+date: "2014-10-01"
+tags: 
+  - "null"
 published: false
 title: "Naked Internship Part 2: How we built TodoWhat"
-author: "AndrewLow"
+author: AndrewLow
+header_image: ""
 ---
+
 
 Part 2 of a series exposing what it's like to be an intern engineer at a tech consultancy.  In this post I describe how my internship project was structured and some of the technology that was used.
 
