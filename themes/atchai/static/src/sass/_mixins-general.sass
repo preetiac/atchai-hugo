@@ -8,7 +8,7 @@
         top: 0
         left: 0
         height: 100%
-        width: 50.5%
+        width: 50%
         background: $color
         -webkit-transform: skew(0deg, 6deg)
         -moz-transform: skew(0deg, 6deg)
@@ -31,6 +31,46 @@
         -o-transform: skew(0deg, -6deg)
         transform: skew(0deg, -6deg)
         z-index: -1
+    
+=chevron-portfolio($color, $border)
+    
+    position: relative
+    
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, 6deg)
+        -moz-transform: skew(0deg, 6deg)
+        -ms-transform: skew(0deg, 6deg)
+        -o-transform: skew(0deg, 6deg)
+        transform: skew(0deg, 6deg)
+        z-index: -1
+        border: 1px solid $border
+        border-top: none
+        border-right: none
+    
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, -6deg)
+        -moz-transform: skew(0deg, -6deg)
+        -ms-transform: skew(0deg, -6deg)
+        -o-transform: skew(0deg, -6deg)
+        transform: skew(0deg, -6deg)
+        z-index: -1
+        border: 1px solid $border
+        border-left: none
+        border-top: none
     
 @font-face
     font-family: 'Glyphicons Halflings'
@@ -158,47 +198,46 @@
 	height: 48px
 	background-position: 0 -78px
 
-
-
 .client 
-	display: inline-block;
-	background-repeat: no-repeat;
-	background-image: url(/img/sprite-clients.svg);
+	display: inline-block
+	background-repeat: no-repeat
+	background-image: url(/img/sprite-clients.svg)
 
 .client-NHS 
-	width: 99px;
-	height: 40px;
+	width: 124px;
+	height: 50px;
 	background-position: 0 0;
 
 .client-Turner 
-	width: 159px;
-	height: 40px;
-	background-position: -180px 0;
+	width: 199px;
+	height: 50px;
+	background-position: -200px 0;
 
 .client-Champion 
-	width: 81px;
-	height: 40px;
-	background-position: -450px 0;
+	width: 101px;
+	height: 50px;
+	background-position: -500px 0;
 
 .client-hscic 
-	width: 159px;
-	height: 40px;
-	background-position: -630px 0;
+	width: 198px;
+	height: 50px;
+	background-position: -700px 0;
 
 .client-Internews 
-	width: 150px;
-	height: 40px;
-	background-position: -900px 0;
+	width: 188px;
+	height: 50px;
+	background-position: -1000px 0;
 
 .client-Parity 
-	width: 185px;
-	height: 40px;
-	background-position: -1170px 0;
+	width: 231px;
+	height: 50px;
+	background-position: -1300px 0;
 
 .client-Bank 
-	width: 171px;
-	height: 40px;
-	background-position: -1440px 0;
+	width: 214px;
+	height: 50px;
+	background-position: -1600px 0;
+
     
 @media screen and (min-width: 40em)
     @support ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch)))
