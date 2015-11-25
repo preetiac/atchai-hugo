@@ -4,7 +4,8 @@ author: JohnGriffin
 slug: "the-cms-is-dead-long-live-hugo-wercker-proseio-and-cloudfront"
 date: "2015-11-25"
 header_image: ""
-tags: null
+tags: 
+  - "null"
 published: false
 title: "The CMS is dead. Long live Hugo, Wercker, Prose.io and CloudFront"
 ---
@@ -15,7 +16,7 @@ Over the last few years we’ve been using smaller components in the software st
 
 On [Atchai.com](http://atchai.com/), there is no need for users to log in, everyone sees the same content on every page. Most pages on the site get updated infrequently, the blog is the only section with regular updates — for this reason we want to provide some simple UI that non-technical staff can use to create blog posts.
 
-![](/images/hugo%20post%20image1.png)
+![atchai.com](/images/Screen%20Shot%202015-11-25%20at%2015.26.04.png)
 
 In this post I’ll talk through the technology choices we made and describe the seriously fast, flexible and scalable architecture that we ended up with. I’ve made the [code for our new website](https://github.com/atchai/atchai-hugo) public on Github, so feel free to follow along at home.
 
