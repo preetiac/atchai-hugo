@@ -15,7 +15,7 @@ Over the last few years we’ve been using smaller components in the software st
 
 On [Atchai.com](http://atchai.com/), there is no need for users to log in, everyone sees the same content on every page. Most pages on the site get updated infrequently, the blog is the only section with regular updates — for this reason we want to provide some simple UI that non-technical staff can use to create blog posts.
 
-![Screen Shot 2015-11-25 at 15.26.04.png](static/images/Screen Shot 2015-11-25 at 15.26.04.png)
+![](/images/hugo%20post%20image1.png)
 
 In this post I’ll talk through the technology choices we made and describe the seriously fast, flexible and scalable architecture that we ended up with. I’ve made the [code for our new website](https://github.com/atchai/atchai-hugo) public on Github, so feel free to follow along at home.
 
@@ -66,7 +66,8 @@ If you go with prose.io and Hugo, you might want to use our [prose.yml configura
 We normally use [Travis CI](https://travis-ci.org/) to automatically run tests and deploy code. However, I noticed that [Wercker](http://wercker.com/) has nice simple plugins to build a Hugo site and deploy to S3, so it was a good opportunity to check out a new tool.
 
 Use this doc to [set up wercker to automatically build your Hugo site](https://gohugo.io/tutorials/automated-deployments/), then swap out the Github Pages deploy step for the one that you can see in our [wercker.yml](https://github.com/atchai/atchai-hugo/blob/master/wercker.yml) config. You will need to set up the variables for the S3 deploy step in wercker’s UI, note that this is done by adding a _Deploy Target_, rather than _Environment Variables_. Your new Deploy Target settings should look like this:
-![hugo post image1.png](static/images/hugo post image1.png)
+
+![hugo post image1.png](/images/hugo post image1.png)
 
 ## Hosting
 
