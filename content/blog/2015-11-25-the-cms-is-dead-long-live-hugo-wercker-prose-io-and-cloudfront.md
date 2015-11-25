@@ -20,14 +20,14 @@ On [Atchai.com](http://atchai.com/), there is no need for users to log in, every
 
 In this post I’ll talk through the technology choices we made and describe the seriously fast, flexible and scalable architecture that we ended up with. I’ve made the [code for our new website](https://github.com/atchai/atchai-hugo) public on Github, so feel free to follow along at home.
 
-# What do we need?
+## What do we need?
 
 * **Static Site Generator:** a simple framework to build the deployable code from it’s components of content, theme and configuration.
 * **Content Editing UI:** for non-technical staff to create blog posts.
 * **CI tool:** automatically deploys the site when content is updated.
 * **Hosting:** our site has to live somewhere.
 
-## Static Site Generator
+### Static Site Generator
 
 tl;dr — we chose [Hugo](https://gohugo.io/) because it is really well documented, blazingly fast and has Goldilocks proportions and sane defaults for sites like ours.
 
@@ -48,7 +48,7 @@ After running through Hugo’s excellent [Getting Started](https://gohugo.io/ove
 
 To set up your Hugo site you need to add your content and build your theme. All your markdown content lives in “/content” and I’d recommend keeping your images in “/static” if you can. There are plenty of pre-built themes to choose from if you don’t want to design your own. However, if you have a full design then I’d recommend following this excellent [tutorial to create a brand new theme](http://www.humboldtux.net/sbcb-demo/post/post-01/).
 
-# Content Editing UI
+## Content Editing UI
 
 There’s a pretty massive discussion going on around [whether Hugo should have it’s own CMS-like UI](https://discuss.gohugo.io/t/web-based-editor/155/22). You can probably tell which side of that I’m on from my micro-services rants.
 
@@ -62,15 +62,16 @@ Ultimately we chose [prose.io](http://prose.io/) because:
 
 If you go with prose.io and Hugo, you might want to use our [prose.yml configuration](https://github.com/atchai/atchai-hugo/blob/master/_prose.yml) as a starting point. It has been configured to only show the “/content” directory, upload images into “/static/images” and create proper metadata fields for the front-matter that we use.
 
-# CI Tool
+## CI Tool
 
 We normally use [Travis CI](https://travis-ci.org/) to automatically run tests and deploy code. However, I noticed that [Wercker](http://wercker.com/) has nice simple plugins to build a Hugo site and deploy to S3, so it was a good opportunity to check out a new tool.
 
 Use this doc to [set up wercker to automatically build your Hugo site](https://gohugo.io/tutorials/automated-deployments/), then swap out the Github Pages deploy step for the one that you can see in our [wercker.yml](https://github.com/atchai/atchai-hugo/blob/master/wercker.yml) config. You will need to set up the variables for the S3 deploy step in wercker’s UI, note that this is done by adding a _Deploy Target_, rather than _Environment Variables_. Your new Deploy Target settings should look like this:
 
-![hugo post image1.png](/images/hugo post image1.png)
+![Setttings](/images/hugo post image1.png)
 
-## Hosting
+
+### Hosting
 
 Given that our site is static, we have plenty of hosting options! We often use [Amazon Web Services](https://aws.amazon.com/) or PAAS offerings that are built on AWS.
 
@@ -86,7 +87,7 @@ Bear in mind that now when we deploy there is a delay before changes are propoga
 
 The best part of this high-availability hosting solution that’s served from a global CDN is the cost, clocking in at less than £1 /month in total.
 
-# Known Issues
+## Known Issues
 No solution is perfect, and the following issues are quite annoying!
 
 * Commit Noise — every time we add/edit content or upload an image from Prose.io, a commit is made. We will look into ways to have separate repositories for content and configuration.
@@ -94,7 +95,7 @@ No solution is perfect, and the following issues are quite annoying!
 * Cloudfront will not deal with gzipping your content. We’ll have to use this method of hosting gzipped files in our S3 bucket for Cloudfront to serve to our users.
 * S3cmd (as used by the Wercker S3 deploy step) does not guess the MIME type of SVG files correctly. Without the correct MIME type served in the Content Type header, most browsers will not display SVG images.
 
-# So…
+## So…
 
 Overall, we’re really happy with the solution outlined in this post. We have a set of simple components, each of which can be switched out easily, and the resultant website is much faster and more secure than the one it replaced.
 
