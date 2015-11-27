@@ -5,12 +5,11 @@ slug: "the-cms-is-dead-long-live-hugo-wercker-proseio-and-cloudfront"
 date: "2015-11-25"
 header_image: ""
 tags: 
-  - "null"
 published: false
 title: "The CMS is dead. Long live Hugo, Wercker, Prose.io and CloudFront"
 ---
 
-We recently redesigned our [tech consultancy](http://atchai.com/)’s website. After considering our requirements, we realised with significant joy that we could jettison our 5-year old CMS ([Drupal](https://www.drupal.org/)) in favour of a Static Site Generator.
+We recently redesigned our [atchai.com](http://atchai.com/) site - yes, the one you're looking at. After considering our requirements, we realised with significant joy that we could jettison our 5-year old CMS ([Drupal](https://www.drupal.org/)) in favour of a Static Site Generator.
 
 Over the last few years we’ve been using smaller components in the software stacks that we deploy for client projects. Some people call this a [microservices architecture](https://en.wikipedia.org/wiki/Microservices), composing complex applications from small, independent services, allowing you to easily switch out and upgrade parts of your stack. So, why not apply the same thinking for our company website?
 
