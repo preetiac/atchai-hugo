@@ -1,7 +1,7 @@
 ---
 description: null
 slug: "your-big-data-might-be-small"
-date: "2015-11-05"
+date: "2015-11-27"
 tags: null
 title: "Your Big Data Might Be Small"
 author: "RobHardwick"
