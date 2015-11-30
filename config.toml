@@ -1,13 +1,13 @@
 baseurl = "/"
 languageCode = "en-gb"
-title = "Atchai Digital Consultancy London"
+title = "Digital Consultancy in London"
 theme = "atchai"
 relativeurls = true
 canonifyurls = false
 
 
 [params]
-  metadescription = "Atchai specialises in building sophisticated web applications, and digital products using big data technology."
+  metadescription = "Atchai specialises in building beautiful digital products and sophisticated data-driven web applications."
 
 [params.authors]
 	[params.authors.JohnGriffin]
