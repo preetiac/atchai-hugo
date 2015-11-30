@@ -4,7 +4,7 @@ slug: "naked-internship-part-2-how-we-built-todowhat"
 date: "2014-10-01"
 tags: 
   - "null"
-published: false
+published: true
 title: "Naked Internship Part 2: How we built TodoWhat"
 author: AndrewLow
 header_image: ""

@@ -4,7 +4,7 @@ author: JohnGriffin
 slug: "load-testing-drupal-cloud"
 date: "2010-08-20"
 tags: null
-published: false
+published: true
 title: Load Testing Drupal in the Cloud
 ---
 

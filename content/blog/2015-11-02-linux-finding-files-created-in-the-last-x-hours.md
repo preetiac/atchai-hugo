@@ -4,7 +4,7 @@ author: JohnGriffin
 slug: "linux-finding-files-created-last-x-hours"
 date: "2010-08-19"
 tags: null
-published: false
+published: true
 title: "Linux: Finding files created in the last X hours"
 ---
 

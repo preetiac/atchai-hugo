@@ -4,7 +4,7 @@ slug: "naked-internship-part-1-introducing-todowhat"
 date: "2014-09-11"
 tags: 
   - "null"
-published: false
+published: true
 title: "Naked Internship Part 1: Introducing TodoWhat"
 author: AndrewLow
 header_image: ""

@@ -4,7 +4,7 @@ author: JohnGriffin
 slug: "google-refine-vs-xlwrap"
 date: "2011-09-05"
 tags: null
-published: false
+published: true
 title: Google Refine vs XLWrap
 ---
 

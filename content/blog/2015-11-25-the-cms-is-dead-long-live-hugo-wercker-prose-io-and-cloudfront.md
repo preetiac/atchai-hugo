@@ -5,7 +5,7 @@ slug: "the-cms-is-dead-long-live-hugo-wercker-proseio-and-cloudfront"
 date: "2015-11-25"
 header_image: ""
 tags: 
-published: false
+published: true
 title: "The CMS is dead. Long live Hugo, Wercker, Prose.io and CloudFront"
 ---
 

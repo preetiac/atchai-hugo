@@ -3,7 +3,7 @@ description: null
 slug: "stopping-files-being-created-non-mac-volumes"
 date: "2010-08-19"
 tags: null
-published: false
+published: true
 title: "Stopping ._ files being created on non-Mac volumes"
 author: JohnGriffin
 ---

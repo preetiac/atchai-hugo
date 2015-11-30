@@ -3,7 +3,7 @@ description: null
 slug: "spaces-module-drupal-multi-site-alternative"
 date: "2011-08-20"
 tags: null
-published: false
+published: true
 title: "Spaces Module as a Drupal Multi-site alternative"
 author: "JohnGriffin"
 ---

@@ -3,7 +3,7 @@ description: null
 slug: "continuous-integration-step-step-guide"
 date: "2012-03-05"
 tags: null
-published: false
+published: true
 title: "Continuous Integration - A Step by Step Guide"
 author: "RobHardwick"
 ---

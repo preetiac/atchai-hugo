@@ -3,7 +3,7 @@ description: null
 slug: "dataseed-featured-guardian-datablog"
 date: "2012-11-08"
 tags: null
-published: false
+published: true
 title: Dataseed featured on Guardian Datablog
 author: "JohnGriffin"
 ---

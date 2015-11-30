@@ -4,7 +4,7 @@ author: JohnGriffin
 slug: "introducing-survey-builder-presentation"
 date: "2011-12-12"
 tags: null
-published: false
+published: true
 title: "Introducing Survey Builder - Presentation"
 ---
 

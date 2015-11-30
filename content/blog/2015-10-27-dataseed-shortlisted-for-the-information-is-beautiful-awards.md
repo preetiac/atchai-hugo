@@ -3,7 +3,7 @@ description: ""
 slug: "dataseed-shortlisted-information-beautiful-awards"
 date: "2013-10-31"
 tags: null
-published: false
+published: true
 title: Dataseed shortlisted for the Information Is Beautiful Awards
 author: "JohnGriffin"
 ---

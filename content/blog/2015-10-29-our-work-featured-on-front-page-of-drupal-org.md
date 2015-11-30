@@ -3,7 +3,7 @@ description: null
 slug: "our-work-featured-front-page-drupalorg"
 date: "2012-09-27"
 tags: null
-published: false
+published: true
 title: Our work featured on front page of Drupal.org
 author: "JohnGriffin"
 ---
