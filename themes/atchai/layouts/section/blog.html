@@ -6,7 +6,7 @@
            <h1 class="posts-header">Atchai blog</h1>
            <div class="blog-posts blog-posts-container">
      
-               {{ range first 20 .Data.Pages }}
+               {{ range .Paginator.Pages }}
                
                    <div class="blog-posts-post clearfix">
                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -16,16 +16,10 @@
                    </div>
                
                {{ end }}
-               
-                          
-               <div class="pagination">
-                   <button class="pagination-button pagination-button-left"><span class="glyphicon glyphicon-menu-left"></span> Newer</button>
-                   <p>Page 1 of 10</p>
-                   <button class="pagination-button pagination-button-right">Older <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
-               </div>
+            
+               {{ partial "pager.html" . }}
                
            </div>
-           
        </article>
 	</section>
 

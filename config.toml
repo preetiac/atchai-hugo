@@ -4,7 +4,7 @@ title = "Digital Consultancy in London"
 theme = "atchai"
 relativeurls = true
 canonifyurls = false
-
+paginate = 10
 
 [params]
   metadescription = "Atchai specialises in building beautiful digital products and sophisticated data-driven web applications."
