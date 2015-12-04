@@ -1,11 +1,15 @@
 ---
 description: null
 slug: "your-big-data-might-be-small"
-date: "2015-11-27"
-tags: null
-title: "Your Big Data Might Be Small"
-author: "RobHardwick"
+date: "2015-12-03"
+tags: 
+  - "null"
+title: Your Big Data Might Be Small
+author: RobHardwick
+published: true
+header_image: ""
 ---
+
 
 Recently we've been working on a prototype of a textual analysis product. The requirements are fairly simple: take a corpus of user comments and find distinctive terms for each user. The purpose of the exercise was to validate the utility of this analysis to the client as well as to explore what architectural choices would be appropriate in a full version of the product. We tried a couple of different approaches and in this post I'm going to look at the pros and cons of them and how the aims of the prototype sometimes conflicted.
 
