@@ -11,6 +11,7 @@ header_image: ""
 ---
 
 
+
 Recently we've been working on a prototype of a textual analysis product. The requirements are fairly simple: take a corpus of user comments and find distinctive terms for each user. The purpose of the exercise was to validate the utility of this analysis to the client as well as to explore what architectural choices would be appropriate in a full version of the product. We tried a couple of different approaches and in this post I'm going to look at the pros and cons of them and how the aims of the prototype sometimes conflicted.
 
 The code for this post is [available on Github](https://github.com/atchai/small-data) so you see in detail the differences between the two approaches. The data I've used for this example is the first two years of reddit comments (2007-2008) from the [reddit comments corpus on archive.org](https://archive.org/details/2015_reddit_comments_corpus).  I've had to remove certain proprietary elements from the code in order to open-source it - the biggest difference is that the code on Github does a simple count of terms for each user instead of using a more interesting algorithm to define what makes a term distinctive for a particular user.
