@@ -2,12 +2,11 @@
 description: "Part 1 of a series exposing what it&#x27;s like to be an intern engineer at a tech consultancy."
 slug: "naked-internship-part-1-introducing-todowhat"
 date: "2014-09-11"
-tags: 
+tags:
   - "null"
 published: true
 title: "Naked Internship Part 1: Introducing TodoWhat"
 author: AndrewLow
-header_image: ""
 ---
 
 

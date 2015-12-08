@@ -2,12 +2,11 @@
 description: null
 slug: "naked-internship-part-3-lessons-what-not-do"
 date: "2014-10-29"
-tags: 
+tags:
   - "null"
 published: true
 title: "Naked Internship Part 3: Lessons in what NOT to do"
 author: AndrewLow
-header_image: ""
 ---
 
 

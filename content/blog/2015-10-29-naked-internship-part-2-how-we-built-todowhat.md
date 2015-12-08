@@ -2,12 +2,11 @@
 description: null
 slug: "naked-internship-part-2-how-we-built-todowhat"
 date: "2014-10-01"
-tags: 
+tags:
   - "null"
 published: true
 title: "Naked Internship Part 2: How we built TodoWhat"
 author: AndrewLow
-header_image: ""
 ---
 
 
@@ -76,13 +75,13 @@ Eventually, an attempt to implement a new feature, [broke an existing one](http:
 For example, one of my tests is simply making sure it is possible to add a todo, and that the content of the todo is what it was created with at the start. There are many testing frameworks to choose from for javascript. The one we settled on for this project was [Jasmine](http://jasmine.github.io/). Jasmine lets you write your tests in a very natural intuitive way. Here's the snippet for the test described above:
 
     describe("the todo", function(){
-    
+
       beforeEach(function(){
         this.todo = new Todo({
           content: "A test todo"
         });
       });
-    
+
       it("should have content", function(){
         expect(this.todo.get("content")).toBe("A test todo");
       });
@@ -171,7 +170,7 @@ This allows you to write all your views as classes, and routes as methods of the
 Example:
 
     from flask.ext.classy import
-    
+
       class APIView(FlaskView):
           def index(self):
               # Sends a GET request to '/api'
