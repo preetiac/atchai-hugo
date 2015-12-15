@@ -4,7 +4,8 @@ author: PhilipOlivier
 slug: "Slice-prioritise-repeat"
 date: "2015-12-14"
 header_image: ""
-tags: null
+tags: 
+  - "null"
 published: false
 title: "Slice, prioritise, repeat"
 ---
@@ -81,92 +82,109 @@ There are many different patterns to use to split stories.  Below are examples o
 
 The following was a requirement in one of our projects: 
 
--> “As a [user], I want to add a record, so that…” <-
+*“As a [user], I want to add a record, so that…”*
 
-A record had many fields.  Some were standard and some were custom.  In this case we split the ticket into “...I want to add a simple record with standard fields...” and “...I want to add a record with (complex) custom fields…”
+A record had many fields.  Some were standard and some were custom.  In this case we split the ticket into 
+
+*“...I want to add a simple record with standard fields...”*
+
+and 
+
+*“...I want to add a record with (complex) custom fields…”*
 
 **By roles**
 
 In the same project there was a requirement for different users to be able to interact with the application in different ways.  We decided to split 
 
-“As a member of staff, I want to be able to manage session records for clients, so that…” 
+*“As a member of staff, I want to be able to manage session records for clients, so that…”*
 
 into 
 
-“As an administrator, I want to manage session records for all clients, so that…” 
+*“As an administrator, I want to manage session records for all clients, so that…”*
 
 and 
 
-“As a support worker, I want to manage session records for my clients, so that…”
+*“As a support worker, I want to manage session records for my clients, so that…”*
 
 **Workflow steps**
 	
 User stories often involve a number of logical workflow steps.  During a project which required us to build a publishing portal for data, a requirement started out as 
 
-“As a user, I want to be able to publish data to the portal, so that…”.  
+*“As a user, I want to be able to publish data to the portal, so that…”.* 
 
 After working through the details of the requirement with the client we were able to split this story into multiple stories, e.g. 
 
-“As a researcher I want to submit data for review before it is published, so that…”
-“As a reviewer I want to edit data before it is published, so that…”
-“As a reviewer I want to submit data to a team leader to sign off for publication, so that…”
-“As a manager I want to publish data to the data portal, so that…”
+*“As a researcher I want to submit data for review before it is published, so that…”*
+
+*“As a reviewer I want to edit data before it is published, so that…”*
+
+*“As a reviewer I want to submit data to a team leader to sign off for publication, so that…”*
+
+*“As a manager I want to publish data to the data portal, so that…”*
 
 **Happy / unhappy flow**
 
 For our SaaS product, Dataseed, we split the stories along a happy / unhappy flow
-“As a user I want to be able to sign up for a new account…”
-“As a user I want to be able to cancel my account…”
+
+*“As a user I want to be able to sign up for a new account…”*
+
+*“As a user I want to be able to cancel my account…”*
 
 **Operations (e.g. CRUD)**
 
-Sometimes it is easy to split a story into different operations - watch out for the word “manage”.  For example - the user story “As a user, I want to manage my profile, so that…”  can be split into 
-“As a user, I want to create my profile…”
-“As a user, I want to edit my profile…”
-“As a user, I want to delete my profile…”
+Sometimes it is easy to split a story into different operations - watch out for the word “manage”.  For example - the user story “As a user, I want to manage my profile, so that…”  can be split into
+
+*“As a user, I want to create my profile…”*
+
+*“As a user, I want to edit my profile…”*
+
+*“As a user, I want to delete my profile…”*
 
 **Defer performance**
 	
 Where a story has a performance requirement it can usually be split in two:
 
-“I want to be able to search for something…”
-“I want to be able to search for something in under 2 seconds…”
+*“I want to be able to search for something…”*
+
+*“I want to be able to search for something in under 2 seconds…”*
 
 **Business rule variations**
 
 Some user stories cover multiple business rule variations.  Consider the story 
 
-“I want to be able to search for orders”  
+*“I want to be able to search for orders”*
 
 By looking at the business rules we can split this story into
 
-“I want to search for orders by area…”
-“I want to search for orders by client…”
-“I want to search for orders by status…”
+*“I want to search for orders by area…”*
+
+*“I want to search for orders by client…”*
+
+*“I want to search for orders by status…”*
 
 **Major effort**
 
 In some cases there are multiple ways in which a story can be implemented.  The user story 
 
-“As a user I want to be able to pay for goods I purchase…”
+*“As a user I want to be able to pay for goods I purchase…”*
 
 This could be split into
 
-”I want to pay with one card type…” 
+*”I want to pay with one card type…”* 
 
 and 
 
-“I want to pay with all card types”
+*“I want to pay with all card types”*
 
 **Data entry methods**
 
 Here is a requirement from Dataseed
 
-“As a user, I want to upload a dataset, so that…”
+*“As a user, I want to upload a dataset, so that…”*
 
 We realised that the scope of this ticket was as wide as the number of ways in which data could be uploaded.  We decided to split this out into several stories each focusing on the data entry method, e.g.
 
-“As a user, I want to be able to upload a csv dataset from my computer…”
+*“As a user, I want to be able to upload a csv dataset from my computer…”*
 
 As I said before, there are many ways to split stories and the ones described above are the ones we use most often.  We didn’t invent these splitting patterns, but simply observed them and read about them in Agile literature.
 
