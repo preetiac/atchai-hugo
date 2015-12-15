@@ -2,7 +2,7 @@
 description: null
 author: PhilipOlivier
 slug: "Slice-prioritise-repeat"
-date: ""
+date: "2015-12-14"
 header_image: ""
 tags: null
 published: false
