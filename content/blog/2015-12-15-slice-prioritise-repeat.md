@@ -6,7 +6,7 @@ date: "2015-12-14"
 header_image: ""
 tags: 
   - "null"
-published: false
+published: true
 title: "Slice, prioritise, repeat"
 ---
 
@@ -23,7 +23,7 @@ There are no hard and fast rules when it comes to overcoming these challenges.  
 
 In this post I’ll talk more about these two challenges and share what we’ve learned.
 
-![https://xkcd.com/974/](/images/the_general_problem.png)
+[![xkcd cartoon](/images/the_general_problem.png)](https://xkcd.com/974/)
 
 ### What is value?
 
@@ -62,15 +62,15 @@ Through a learning process we’ve settled on three broad rules of thumb and use
 
 ![Screen Shot 2015-12-15 at 12.47.19.png](/images/Screen Shot 2015-12-15 at 12.47.19.png)
 
-# **Don’t split stories horizontally - split them vertically**
+#### **Don’t split stories horizontally - split them vertically**
 
 For example, splitting by architecture ( front-end and back-end user stories) won’t have much value if you only deliver one of them.  However, if you split a story vertically you can deliver small chunks of end-to-end working functionality which has real value.
 
-# **80% of effects come from 20% of causes and 80% of results come from 20% of effort**
+#### **80% of effects come from 20% of causes and 80% of results come from 20% of effort**
 
 How can we apply this to splitting user stories?   Applying the 80:20 rule means that most of the value of a user story comes from a tiny part of the functionality.  Keeping this in mind when splitting user stories helps us prioritise the more value/less work over the less value/more work.
 
-# **Keeps things equal**
+#### **Keeps things equal**
 
 Split a larger user story into equal smaller user stories where possible.  This makes it much easier to prioritise how value is delivered.
 
@@ -78,9 +78,9 @@ Split a larger user story into equal smaller user stories where possible.  This 
 
 There are many different patterns to use to split stories.  Below are examples of the ones we use most regularly.
 
-**Simple / complex**
+#### **Simple / complex**
 
-The following was a requirement in one of our projects: 
+The following was a requirement in one of our projects
 
 *“As a [user], I want to add a record, so that…”*
 
@@ -92,7 +92,7 @@ and
 
 *“...I want to add a record with (complex) custom fields…”*
 
-**By roles**
+#### **By roles**
 
 In the same project there was a requirement for different users to be able to interact with the application in different ways.  We decided to split 
 
@@ -106,7 +106,7 @@ and
 
 *“As a support worker, I want to manage session records for my clients, so that…”*
 
-**Workflow steps**
+#### **Workflow steps**
 	
 User stories often involve a number of logical workflow steps.  During a project which required us to build a publishing portal for data, a requirement started out as 
 
@@ -122,15 +122,15 @@ After working through the details of the requirement with the client we were abl
 
 *“As a manager I want to publish data to the data portal, so that…”*
 
-**Happy / unhappy flow**
+#### **Happy / unhappy flow**
 
-For our SaaS product, Dataseed, we split the stories along a happy / unhappy flow
+For our SaaS product, [Dataseed](https://getdataseed.com/), we split the stories along a happy / unhappy flow
 
 *“As a user I want to be able to sign up for a new account…”*
 
 *“As a user I want to be able to cancel my account…”*
 
-**Operations (e.g. CRUD)**
+#### **Operations (e.g. CRUD)**
 
 Sometimes it is easy to split a story into different operations - watch out for the word “manage”.  For example - the user story “As a user, I want to manage my profile, so that…”  can be split into
 
@@ -140,15 +140,15 @@ Sometimes it is easy to split a story into different operations - watch out for 
 
 *“As a user, I want to delete my profile…”*
 
-**Defer performance**
+#### **Defer performance**
 	
-Where a story has a performance requirement it can usually be split in two:
+Where a story has a performance requirement it can usually be split in two
 
 *“I want to be able to search for something…”*
 
 *“I want to be able to search for something in under 2 seconds…”*
 
-**Business rule variations**
+#### **Business rule variations**
 
 Some user stories cover multiple business rule variations.  Consider the story 
 
@@ -162,7 +162,7 @@ By looking at the business rules we can split this story into
 
 *“I want to search for orders by status…”*
 
-**Major effort**
+#### **Major effort**
 
 In some cases there are multiple ways in which a story can be implemented.  The user story 
 
@@ -176,9 +176,9 @@ and
 
 *“I want to pay with all card types”*
 
-**Data entry methods**
+#### **Data entry methods**
 
-Here is a requirement from Dataseed
+Here is a requirement from [Dataseed](https://getdataseed.com/)
 
 *“As a user, I want to upload a dataset, so that…”*
 
