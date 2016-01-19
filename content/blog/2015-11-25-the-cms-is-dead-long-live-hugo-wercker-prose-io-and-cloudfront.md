@@ -90,7 +90,7 @@ No solution is perfect, and the following issues are quite annoying!
 
 * Commit Noise — every time we add/edit content or upload an image from Prose.io, a commit is made. We will look into ways to have separate repositories for content and configuration.
 * Prose’s Jekyll legacy — in particular the fact that when you insert an image it insists on prepending {{ site.baseurl }} to the path, GRRR. There’s an [issue for that](https://github.com/prose/prose/issues/842).
-* Cloudfront will not deal with gzipping your content. We’ll have to use this method of hosting gzipped files in our S3 bucket for Cloudfront to serve to our users.
+* ~~Cloudfront will not deal with gzipping your content. We’ll have to use this method of hosting gzipped files in our S3 bucket for Cloudfront to serve to our users.~~ UPDATE: Cloudfront now supports gzipping!
 * S3cmd (as used by the Wercker S3 deploy step) does not guess the MIME type of SVG files correctly. Without the correct MIME type served in the Content Type header, most browsers will not display SVG images.
 
 ## So…
