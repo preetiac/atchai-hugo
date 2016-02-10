@@ -37,7 +37,7 @@ This was my first Arduino project so I probably did lots of stupid things along 
 
 As you can tell from the development process, the final product was arrived at through several long evenings of experimentation, rather than from up-front specification. This is how it ended up:
 
-![top-description.png](/images/top-description.png)
+![top-description.jpg](/images/top-description.jpg)
 
 ### Controls
 
@@ -87,8 +87,9 @@ Polling the pot values takes a bit of time, so in our program we do this between
 
 We want to generate a new sequence each time the “generate new sequence” button is pressed. For this we will need to use a random number generator of some sort.
 
-		Any one who considers arithmetical methods of producing random digits is, of course, in a state of sin.
-		John Von Neuman
+> Any one who considers arithmetical methods of producing random digits is, of course, in a state of sin.
+
+> <em>John Von Neuman</em>
 
 Getting a computer to be unpredictable is hard. We don’t want the same set of “random” numbers to be generated each time we power on the device. A perfect random number generator would have two properties:
 
@@ -119,4 +120,4 @@ Here are some little vignettes that were recorded live while playing with the Sl
 
 If you’d like to collaborate on a music / tech project please [get in touch](mailto:john@atchai.com).
 
-When I’m not making silly noises I run the digital consultancy [Atchai](http://atchai.com/) and the open data visualisation startup [Dataseed](https://getdataseed.com/).
+When I’m not making weird noises I'm making exiting, innovative and scalable data driven applications for our clients at [Atchai](http://atchai.com/) and [Dataseed](https://getdataseed.com/).

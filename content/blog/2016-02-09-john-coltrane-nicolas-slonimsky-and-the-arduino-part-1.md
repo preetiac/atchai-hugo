@@ -89,4 +89,5 @@ Here are some sound clips that were recorded live while playing with the Slonims
 
 If you’d like to collaborate on a music / tech project please [get in touch](mailto:john@atchai.com).
 
-When I’m not making weird noises I run the London-based digital consultancy [Atchai](http://atchai.com/) and the open data visualisation startup [Dataseed](https://getdataseed.com/).
+When I’m not making weird noises I'm making exiting, innovative and scalable data driven applications for our clients at [Atchai](http://atchai.com/) and [Dataseed](https://getdataseed.com/).
+
