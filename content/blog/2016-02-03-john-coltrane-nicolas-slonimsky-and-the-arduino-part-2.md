@@ -17,8 +17,9 @@ title: "John Coltrane, Nicolas Slonimsky and The Arduino — Part 2"
 In case you haven’t already, you might want to read [the first part](/blog/2016-02-09-john-coltrane-nicolas-slonimsky-and-the-arduino-part-1/) which focuses on the musical background and inspiration for this project.
 
 {{< vimeo 126063428 >}}
+<br>
 
-The video above shows a nifty little device that I built called the Slonimskiator. At it’s heart is an [Arduino](https://www.arduino.cc/) that’s been programmed to generate melodic patterns based on the concepts in Slonimsky’s [Thesaurus of Melodic Scales and Patterns](http://www.amazon.com/Thesaurus-Scales-Melodic-Patterns-Text/dp/082561449X). It spits out notes using MIDI so that they can be understood by pretty much any synth or electronic instrument. In the video I’ve got it plugged into a [Dave Smith Prophet 08](http://www.davesmithinstruments.com/product/prophet-08-keyboard-2/).
+The video above shows a nifty little device that I built called the Slonimskiator. At it’s heart is an [Arduino](https://www.arduino.cc/) that’s been programmed to generate melodic patterns based on the concepts in Slonimsky’s [Thesaurus of Melodic Scales and Patterns](http://www.amazon.com/Thesaurus-Scales-Melodic-Patterns-Text/dp/082561449X). It spits out notes using MIDI so that they can be understood by pretty much any synth or electronic instrument. In the video I’ve got it plugged into a [Dave Smith Prophet 08](http://www.davesmithinstruments.com/product/prophet-08-keyboard-2/) analog synth.
 
 In this second part I’ll talk tech — how to make the Arduino speak MIDI, using randomness and rules to generate the patterns, and a slight tangent on what randomness actually means in a deterministic world.
 
@@ -104,7 +105,7 @@ In our case we will use the classic method of reading from an unconnected analog
 
 ## What does it sound like?
 
-Here are some little vignettes that were recorded live while playing with the Slonimskiator, plugged into a Dave Smith Prophet 08 (synth) and Eventide Space (reverb effect).
+Here are some little vignettes that were recorded live while playing with the Slonimskiator, plugged into a Dave Smith Prophet 08 (analog synth) and Eventide Space (reverb effect).
 
 {{< soundcloud 241559904 >}}
 

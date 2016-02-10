@@ -15,8 +15,9 @@ title: "John Coltrane, Nicolas Slonimsky and The Arduino — Part 1"
 ## Part 1 of 2: The Music
 
 {{< vimeo 126063428 >}}
+<br>
 
-The video above shows a nifty little device that I built called the Slonimskiator. At it’s heart is an [Arduino](https://www.arduino.cc/) that’s been programmed to generate melodic patterns based on the concepts in Slonimsky’s [Thesaurus of Melodic Scales and Patterns](http://www.amazon.com/Thesaurus-Scales-Melodic-Patterns-Text/dp/082561449X). It spits out notes using MIDI so that they can be understood by pretty much any synth or electronic instrument. In the video I’ve got it plugged into a [Dave Smith Prophet 08](http://www.davesmithinstruments.com/product/prophet-08-keyboard-2/).
+The video above shows a nifty little device that I built called the Slonimskiator. At it’s heart is an [Arduino](https://www.arduino.cc/) that’s been programmed to generate melodic patterns based on the concepts in Slonimsky’s [Thesaurus of Melodic Scales and Patterns](http://www.amazon.com/Thesaurus-Scales-Melodic-Patterns-Text/dp/082561449X). It spits out notes using MIDI so that they can be understood by pretty much any synth or electronic instrument. In the video I’ve got it plugged into a [Dave Smith Prophet 08](http://www.davesmithinstruments.com/product/prophet-08-keyboard-2/) analog synth.
 
 In this two part article, I’ll focus first on the inspiration for the device — the work of John Coltrane and Nicolas Slonimsky. In the second part I’ll talk tech — making the Arduino speak MIDI, using randomness and rules to generate the patterns, and how we can make deterministic machines behave randomly.
 
@@ -47,11 +48,11 @@ Slonimsky also came up with some more fun words to describe how we “inject” 
 How can you actually apply this stuff? One option is to use the book for inspiration, pick out a random scale and try to integrate that phrase into an improvisation over some changes. Try transposing some phrases up or down by major thirds three times until you get to the octave. Or, if you’re John Coltrane, you might write something like Giant Steps:
 
 {{< youtube 30FTr6G53VU >}}
+<br>
 
-
-        The Slonimsky Thesaurus contains material which is virtually identical to portions of “Countdown” and “Giant Steps,” and Slonimksy may be the most direct link between John Coltrane and structural principles of the late nineteenth century…It is truly remarkable that a musicologist born nearly a century ago in Russia might have had such an effect on this jazz saxophonist.
+> The Slonimsky Thesaurus contains material which is virtually identical to portions of “Countdown” and “Giant Steps,” and Slonimksy may be the most direct link between John Coltrane and structural principles of the late nineteenth century…It is truly remarkable that a musicologist born nearly a century ago in Russia might have had such an effect on this jazz saxophonist.
         
-        (David Demsey, “Chromatic Third Relations in the Music of John Coltrane,” Annual Review of Jazz Studies 5 (1991): 154–5.)
+> <em>(David Demsey, “Chromatic Third Relations in the Music of John Coltrane,” Annual Review of Jazz Studies 5 (1991): 154–5.)</em>
 
 The Demsey article quoted above goes into great detail about this, but for me the most obvious connections between Giant Steps and Slonimsky are:
 
@@ -74,7 +75,7 @@ As this part of the article is supposed to be music focussed, I’ll leave a mor
 
 ## What does it sound like?
 
-Here are some sound clips that were recorded live while playing with the Slonimskiator, plugged into a Dave Smith Prophet 08 (synth) and Eventide Space (reverb effect).
+Here are some sound clips that were recorded live while playing with the Slonimskiator, plugged into a Dave Smith Prophet 08 (analog synth) and Eventide Space (reverb effect).
 
 {{< soundcloud 241559904 >}}
 
