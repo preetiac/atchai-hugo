@@ -3,7 +3,7 @@ description: null
 author: JohnGriffin
 slug: ""
 date: "2016-02-08"
-header_image: ""
+header_image: "/images/slominsidecover.png"
 tags: 
   - Arduino
   - Jazz
@@ -21,7 +21,7 @@ In case you haven’t already, you might want to read [the first part](/blog/201
 
 The video above shows a nifty little device that I built called the Slonimskiator. At it’s heart is an [Arduino](https://www.arduino.cc/) that’s been programmed to generate melodic patterns based on the concepts in Slonimsky’s [Thesaurus of Melodic Scales and Patterns](http://www.amazon.com/Thesaurus-Scales-Melodic-Patterns-Text/dp/082561449X). It spits out notes using MIDI so that they can be understood by pretty much any synth or electronic instrument. In the video I’ve got it plugged into a [Dave Smith Prophet 08](http://www.davesmithinstruments.com/product/prophet-08-keyboard-2/) analog synth.
 
-In this second part I’ll talk tech — how to make the Arduino speak MIDI, using randomness and rules to generate the patterns, and a slight tangent on what randomness actually means in a deterministic world.
+In this second part I’ll talk tech — how to make the Arduino speak MIDI, using randomness and rules to generate the patterns, including a slight tangent on what randomness actually means in a deterministic world.
 
 ## Development Process
 
@@ -37,7 +37,7 @@ This was my first Arduino project so I probably did lots of stupid things along 
 
 As you can tell from the development process, the final product was arrived at through several long evenings of experimentation, rather than from up-front specification. This is how it ended up:
 
-![top-description.jpg](/images/top-description.jpg)
+![View of the Slonimskiator controls](/images/top-description.jpg)
 
 ### Controls
 
@@ -55,6 +55,8 @@ You can see how these controls affect the output in the demo video at the top. E
 ### Arduino Code & Config
 
 The [full code and pinout is available on Github](https://github.com/johngriffin/slonimskiator). It’s not a work of art as this was only supposed to be a quick hack. I didn’t use any libraries (apart from [SoftwareSerial](https://www.arduino.cc/en/Reference/SoftwareSerial)) because there wasn’t really a need to. Sometimes this is the best way to dive in and learn as much as possible in a short amount of time. 
+
+![Inside the box. The Nano ATMega328 throbbing away in the centre, all human interfaces ensnared in it’s tentacles.](/images/slominside.png)
 
 ## Design Challenges
 ### MIDI

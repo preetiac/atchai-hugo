@@ -1,4 +1,4 @@
-Atchai.com marketing website based on Hugo.  This is just a standard hugo project with the following modifications:
+Atchai.com marketing website based on Hugo. There is a [full write up](http://atchai.com/blog/the-cms-is-dead-long-live-hugo-wercker-proseio-and-cloudfront/) on the Atchai blog. This is just a standard Hugo project with the following modifications:
 
 * Custom theme in theme/atchai
 * Markdown content in /content

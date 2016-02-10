@@ -3,7 +3,7 @@ description: null
 author: JohnGriffin
 slug: ""
 date: "2016-01-21"
-header_image: ""
+header_image: "/images/slomcover.png"
 tags: 
   - Arduino
   - Jazz
@@ -71,7 +71,7 @@ The Slonimskiator generates melodic patterns and then transposes them up and dow
 
 ![top-description.jpg](/images/top-description.jpg)
 
-As this part of the article is supposed to be music focussed, I’ll leave a more in-depth description of how it works for part 2.
+As this part of the article is supposed to be music focussed, I’ll leave a more in-depth description of how it works for [Part 2](/blog/2016-02-03-john-coltrane-nicolas-slonimsky-and-the-arduino-part-2/).
 
 ## What does it sound like?
 
@@ -86,7 +86,6 @@ Here are some sound clips that were recorded live while playing with the Slonims
 {{< soundcloud 241559212 >}}
 
 ## Call to Action…
-
 If you’d like to collaborate on a music / tech project please [get in touch](mailto:john@atchai.com).
 
 When I’m not making weird noises I'm making exiting, innovative and scalable data driven applications for our clients at [Atchai](http://atchai.com/) and [Dataseed](https://getdataseed.com/).
