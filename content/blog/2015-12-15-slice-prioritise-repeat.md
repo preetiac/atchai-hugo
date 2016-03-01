@@ -11,8 +11,6 @@ title: "Slice, prioritise, repeat"
 
 ## Adventures in finding value and making sense of splitting user stories.
 
-We love building products and features that solve problems.
-
 The journey from concept to releasing your product into to wild is an exciting, albeit complex one, with a fair share of challenges along the way.  We’ve worked with many clients to deliver everything from prototypes, to MVPs to market ready products, and two of the common challenges we see on projects big and small are:
 
 * Defining and prioritising value

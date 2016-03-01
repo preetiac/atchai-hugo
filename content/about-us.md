@@ -14,6 +14,26 @@ To find out about what we can do for you, [give us a call or send us an email](#
 
 ## What our clients say
 
+> John runs an agile, knowledgeable and experienced team of developers with a strong focus on enterprise, data-driven technical solutions. I have employed them for a recent, very challenging project mining the group associativity of social media networks.
+>
+> I was highly impressed by the way John runs his team, the agile way in which they approach the work and even more pleased with their ideas and technical input. I would recommend John and his team at Atchai to anyone who needs a competent solution for any data-oriented enterprise project.
+>
+> <cite>Adrian Leu - 
+> Inition</cite>
+
+<!-- -->
+
+> Atchai Digital created a highly innovative visualisation tool that successfully demonstrates the value of open health data on an imaginative open-source linked data platform.
+>
+> This step-change innovation, which was profiled extensively at an international semantic web conference and a Guardian review, represents an important contribution to health informatics.
+>
+> Atchai’s ability to work in development sprints that result incompelling customer experiences is a clear signature. In fact, the entire Atchai experience is enjoyable, pragmatic, and pleasasantly surprising!
+>
+> <cite>Matthew Wilkinson - 
+> NHS</cite>
+
+<!-- -->
+
 > Having put together a very well thought out and concise proposal we chose Atchai to deliver a new framework to power websites and digital products for our growing general entertainment business and brands.
 > 
 > John and his team came up with a technical approach which has proven to offer huge efficiencies in the production of TV channel support websites. We now have an underlying architecture which enables quick and efficient rollout of new websites, along with the tools to ensure that every site we produce is accessible across mobile devices.
