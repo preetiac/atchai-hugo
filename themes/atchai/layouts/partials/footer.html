@@ -1,13 +1,20 @@
    <footer class="footer">
      <article class="consultation">
-               <div class="container" id="contact">
+               <div class="container" id="contact" itemscope itemtype="http://schema.org/Organization">
                    <h3 class="consultation-header">Let's talk...</h3>
                    <p class="consultation-lorem">We're a friendly bunch. Always happy to share our experience.</p>
                    <div class="consultation-hr"></div>
-                   <a class="consultation-mobile" onClick="ga('send', 'event', 'CTA', 'click', 'Footer Telephone');">020 3137 2845</a>
-                   <a href="mailto:enquiries@atchai.com?subject=Enquiry&body=Hi," class="consultation-email" itemprop="email" onClick="ga('send', 'event', 'CTA', 'click', 'Footer Email');">enquiries@atchai.com</a>
+                   <a class="consultation-mobile" onClick="ga('send', 'event', 'CTA', 'click', 'Footer Telephone');"><span itemprop="telephone">020 3137 2845</span></a>
+                   <a href="mailto:enquiries@atchai.com?subject=Enquiry&body=Hi," class="consultation-email" onClick="ga('send', 'event', 'CTA', 'click', 'Footer Email');"><span itemprop="email">enquiries@atchai.com</span></a>
                    <div class="consultation-hr"></div>
-                   <p class="consultation-map" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">Atchai Digital, 345 Old Street, London, EC1V 9LL, UK</p>
+                   <p class="consultation-map">
+                       <span itemprop="name">Atchai Digital</span>, 
+                       <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                           <span itemprop="streetAddress">345 Old Street, London</span>,  
+                           <span itemprop="postalCode">EC1V 9LL</span>, 
+                           <span itemprop="addressLocality">UK</span>
+                       </span>
+                   </p>
                    <a class="consultation-map-bold" href="https://www.google.co.uk/maps/place/Atchai+Digital/@51.5491503,-0.1211688,15.27z/data=!4m2!3m1!1s0x0:0xaeaae9839f8b39d9">(Map)</a>
                </div>
        </article>
