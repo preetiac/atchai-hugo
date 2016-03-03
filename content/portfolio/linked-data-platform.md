@@ -1,5 +1,6 @@
 ---
 title: Linked Data Platform for NHS
+date: "2013-08-11"
 ---
 
 The Linked Data Platform is an open source tool-kit that enables the creation of semantically rich, web 3.0 applications, driven by structured and semi-structured data. 

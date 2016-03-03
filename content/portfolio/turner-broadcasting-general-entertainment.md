@@ -1,5 +1,6 @@
 ---
 title: Turner Broadcasting - GE Framework
+date: "2014-06-11"
 ---
 
 Turner Broadcasting is home to some of the most recognisable global entertainment brands, such as Boomerang, Cartoon Network, CNN, TCM, and TNT. We’re engaged by Turner Broadcasting to create a platform that enables the rapid roll-out of websites for their General Entertainment brands across Europe, the Middle East and Africa.

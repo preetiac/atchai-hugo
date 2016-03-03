@@ -1,5 +1,6 @@
 ---
-title: Groupseer Social Analytics 
+title: Groupseer Social Analytics
+date: "2015-10-11"
 ---
 
 We're working as an R&D partner with Parity to help develop an innovative new product in the social media analytics space. Our work involves taking an early proof of concept through an iterative product development cycle, using big data technologies, unsupervised machine learning and natural language processing. 

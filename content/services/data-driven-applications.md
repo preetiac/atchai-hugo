@@ -2,6 +2,7 @@
 description: ""
 title: Open Source Data-Driven Applications
 author: "JohnGriffin"
+date: "2014-09-11"
 ---
 
 Atchai delivers sophisticated web applications using open source technology. We work closely with our customers in a collaborative process to create innovative data-driven applications.

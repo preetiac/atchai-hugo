@@ -1,5 +1,6 @@
 ---
 title: Easyhealth
+date: "2013-09-11"
 ---
 
 We redeveloped Easyhealth's site in Drupal 7, with a strong focus on accessibility for the audience, composed primarily of people with learning difficulties. 

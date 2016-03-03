@@ -1,5 +1,6 @@
 ---
 title: Watershed
+date: "2012-10-11"
 ---
 
 [Watershed](http://www.watershed.co.uk/) is an independent cinema and all-round hub for arts, culture and creativity in the South West. We helped them by designing an architecture to consolidate their various online properties. 

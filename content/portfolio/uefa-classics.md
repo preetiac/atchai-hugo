@@ -1,5 +1,6 @@
 ---
 title: UEFA Classics
+date: "2012-09-11"
 ---
 
 Showcasing classic moments in Champions League football over the last 18 years.  We built an application for UEFA’s partnership with Ford to deliver exclusive video content to hundreds of thousands of fans.  The site is available in 7 languages - English, French, German, Italian, Spanish, Portugese and Russian.

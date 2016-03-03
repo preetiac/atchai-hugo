@@ -1,5 +1,6 @@
 ---
 title: Dataseed
+date: "2015-09-11"
 ---
 
 [Dataseed](http://getdataseed.com) is an open platform for data visualisation, exploration and analysis. It's the simplest way to create interactive browser-based dashboards with charts and maps. Dataseed can be integrated with your website to provide a layer of analytics and ￼visualisation, or it can be used standalone by simply uploading spreadsheets.

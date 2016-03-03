@@ -1,5 +1,6 @@
 ---
 title: Ctrl.Alt.Shift
+date: "2014-09-11"
 ---
 
 Ctrl Alt Shift is a not-for-profit with a mission to inspire a generation of passionate, informed and outspoken young people. Our aim was to cultivate a large stimulated and active community to lead opinion, take action and initiate real social and political change. This would grow from a central online hub led by a compelling editorial voice and encouraging contribution, conversation and participation.

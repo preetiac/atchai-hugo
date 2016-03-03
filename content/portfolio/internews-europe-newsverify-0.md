@@ -1,5 +1,6 @@
 ---
 title: NewsVerify for Internews Europe
+date: "2015-09-10"
 ---
 
 NewsVerify is a news publishing platform with a verification framework. It is an open-source product, created in partnership with [Internews Europe](http://www.internews.eu/), and based on [Drupal](/services/drupal-development-london-uk). 

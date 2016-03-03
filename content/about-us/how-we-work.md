@@ -2,6 +2,7 @@
 description: ""
 title: How we work
 author: "JohnGriffin"
+date: "2015-09-11"
 ---
 
 We work with Agile methodologies. Our process is influenced by Scrum, Kanban and XP, taking the core principles and leaving behind some of the more prescriptive doctrine so that we are able to tailor our process for the project and client we're working with.
