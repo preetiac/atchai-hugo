@@ -18,10 +18,14 @@
     
 
     <!-- Open Graph data -->
+    {{ if isset .Params "header_image"  }}
+        <meta property="og:image" content="http://atchai.com{{ .Params.header_image }}" />
+    {{ else }}
+        <meta property="og:image" content="http://atchai.com/img/logo-no-text-525px.png" />
+    {{ end }}
     <meta property="og:title" content="{{ .Title }} - Atchai" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://atchai.com{{ .Permalink }}" />
-    <meta property="og:image" content="http://atchai.com/img/logo-no-text-525px.png" />
     <meta property="og:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}" /> 
     <meta property="og:site_name" content="Atchai" />
     <meta property="fb:admins" content="688546114" />
