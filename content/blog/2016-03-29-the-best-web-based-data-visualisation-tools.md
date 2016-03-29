@@ -1,19 +1,14 @@
 ---
-description: null
 author: JohnGriffin
-slug: "The-best-web-based-data-visualisation-tools"
 date: "2016-03-29"
-tags: 
-  - "null"
 published: true
+header_image: "/images/blog-datavis-header.png"
 title: "The Best Web-based Data Visualisation Tools"
 ---
 
-## And a simple framework to evaluate them
-
 Firstly a disclaimer: I am the founder of [Dataseed — an interactive data visualisation platform](https://getdataseed.com/). I’ve spent a lot of time reviewing the various data visualisation tools on the market and so these are really my personal favourites. I first put together this list as part of a talk I gave at the University of Westminster in 2016 and I’ll aim to keep it up to date.
 
-I’ve focussed on the more affordable, cloud-based and open products, avoiding the BI monoliths and the niche industry-specific tools. This selection should be particularly useful for data journalists, analysts, developers and even the causal non-coding user who wants to step up their Excel game.
+There is a focus on the more affordable, cloud-based and open products, avoiding the BI monoliths and the niche industry-specific tools. All of these tools are cloud-based and require no coding to use. This selection should be particularly useful for data journalists, analysts, developers and even the causal non-coding user who wants to step up their Excel game.
 
 ### Criteria
 
@@ -73,15 +68,15 @@ I would also add one to Few’s list — Relationships. Often thought of as 
 * Exploration / presentation / storytelling
 * Browser / device support (desktop / tablet / mobile?)
 
-## Show me the products!
+## The products
 
-Ok, in roughly ascending order of complexity.
+In roughly ascending order of complexity.
 
 ### [Datawrapper](https://datawrapper.de/) — Best for simple single charts
 
 Perfect for quick, single charts to be embedded within your website / blog. Can only handle small amounts of data, but very easy to paste in data from a spreadsheet, choose your chart and modify it’s appearance within the UI.
 
-![datawrapper chart](/images/datawrapper.png)
+![datawrapper chart](/images/blog-datavis-datawrapper.png)
 
 **Target Market** — Journalists, blogger.
 
@@ -97,7 +92,7 @@ Perfect for quick, single charts to be embedded within your website / blog. Can 
 
 Supremely customisable single charts and static dashboards that can be created through the UI. Ideal for producing complex scientific plots, it has connectors for common data analysis software such as R, Python, MATLAB.
 
-![plotly chart](/images/plotly.png)
+![plotly chart](/images/blog-datavis-plotly.png)
 
 **Target Market** — Data scientists, Analysts, Developers.
 
@@ -113,7 +108,7 @@ Supremely customisable single charts and static dashboards that can be created t
 
 [Interactive dashboards and data exploration](https://getdataseed.com/). Simple drag and drop UI to create visualisations. Modern, lightweight platform that can be embedded in other apps.
 
-![dataseed dashboard](/images/dataseed.jpeg)
+![dataseed dashboard](/images/ipad-mortality-trans.png)
 
 **Target Market** — Data publishers, SMEs, Non-analyst users
 
@@ -129,7 +124,7 @@ Supremely customisable single charts and static dashboards that can be created t
 
 Brilliant for mapping and analysing geographic data. Supports lots of geo data types, and can quickly create stunning visualisations through the UI.
 
-![cartodb chart](/images/cartodb.png)
+![cartodb chart](/images/blog-datavis-cartodb.png)
 
 **Target Market** — Data publishers, Analysts.
 
@@ -145,7 +140,7 @@ Brilliant for mapping and analysing geographic data. Supports lots of geo data t
 
 Self-service BI tool for static dashboards. Connects directly to various SaaS services and can do basic data blending.
 
-![datahero chart](/images/datahero.png)
+![datahero chart](/images/blog-datavis-datahero.png)
 
 **Target Market** — Non-analyst business users.
 
