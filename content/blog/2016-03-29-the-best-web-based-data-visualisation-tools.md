@@ -76,7 +76,7 @@ In roughly ascending order of complexity.
 
 Perfect for quick, single charts to be embedded within your website / blog. Can only handle small amounts of data, but very easy to paste in data from a spreadsheet, choose your chart and modify it’s appearance within the UI.
 
-![datawrapper chart](/images/blog-datavis-datawrapper.png)
+[![datawrapper chart](/images/blog-datavis-datawrapper.png)](https://datawrapper.de/)
 
 **Target Market** — Journalists, blogger.
 
@@ -92,7 +92,7 @@ Perfect for quick, single charts to be embedded within your website / blog. Can 
 
 Supremely customisable single charts and static dashboards that can be created through the UI. Ideal for producing complex scientific plots, it has connectors for common data analysis software such as R, Python, MATLAB.
 
-![plotly chart](/images/blog-datavis-plotly.png)
+[![plotly chart](/images/blog-datavis-plotly.png)](https://plot.ly/)
 
 **Target Market** — Data scientists, Analysts, Developers.
 
@@ -108,7 +108,8 @@ Supremely customisable single charts and static dashboards that can be created t
 
 [Interactive dashboards and data exploration](https://getdataseed.com/). Simple drag and drop UI to create visualisations. Modern, lightweight platform that can be embedded in other apps.
 
-![dataseed dashboard](/images/ipad-mortality-trans.png)
+[![dataseed dashboard](/images/dataseed-campaign-viz.png)](https://getdataseed.com)
+
 
 **Target Market** — Data publishers, SMEs, Non-analyst users
 
@@ -124,7 +125,7 @@ Supremely customisable single charts and static dashboards that can be created t
 
 Brilliant for mapping and analysing geographic data. Supports lots of geo data types, and can quickly create stunning visualisations through the UI.
 
-![cartodb chart](/images/blog-datavis-cartodb.png)
+[![cartodb chart](/images/blog-datavis-cartodb.png)](https://cartodb.com/)
 
 **Target Market** — Data publishers, Analysts.
 
@@ -140,7 +141,7 @@ Brilliant for mapping and analysing geographic data. Supports lots of geo data t
 
 Self-service BI tool for static dashboards. Connects directly to various SaaS services and can do basic data blending.
 
-![datahero chart](/images/blog-datavis-datahero.png)
+[![datahero chart](/images/blog-datavis-datahero.png)](https://datahero.com/)
 
 **Target Market** — Non-analyst business users.
 
