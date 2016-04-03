@@ -154,3 +154,5 @@ Self-service BI tool for static dashboards. Connects directly to various SaaS se
 **Visualisation Functionality** — Static dashboards, where the charts are not clickable. Most common charts including choropleth maps.
 
 This list is obviously not comprehensive, there are many more web-based data visualization products on the market. It does however represent my personal favourites in each category, the tools I turn to when I need to get something done, fast.
+
+If you’re looking for something a bit different to these tools then our team at Atchai creates bespoke data driven applications incorporating machine learning, data visualisation and all the good stuff. I’d be happy to chat through your project, just <a href="mailto:john@atchai.com">send me a mail</a>.
