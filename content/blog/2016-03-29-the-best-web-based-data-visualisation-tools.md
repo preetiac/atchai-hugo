@@ -92,7 +92,9 @@ Perfect for quick, single charts to be embedded within your website / blog. Can 
 
 Supremely customisable single charts and static dashboards that can be created through the UI. Ideal for producing complex scientific plots, it has connectors for common data analysis software such as R, Python, MATLAB.
 
-[![plotly chart](/images/blog-datavis-plotly.png)](https://plot.ly/)
+[![plotly chart](/images/blog-datavis-plotly.png)](https://plot.ly/)       
+
+> Random plotly chart
 
 **Target Market** — Data scientists, Analysts, Developers.
 
