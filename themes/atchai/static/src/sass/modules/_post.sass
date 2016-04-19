@@ -64,16 +64,19 @@
         padding: 10px 65px
         margin-bottom: 50px
         
-        &:before
+        &:not(.is-caption):before
             content: url('/img/before-blockquote.png')
             padding-right: 5px
             position: absolute
             left: 0px
         
-        &:after
+        &:not(.is-caption):after
             content: url('/img/after-blockquote.png')
             position: absolute
             right: 0
+    
+    blockquote.is-caption
+        color #ddd
         
     code
         color: black
