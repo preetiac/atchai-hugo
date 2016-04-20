@@ -1,5 +1,5 @@
 ---
-description: "We deliver our expertise as technology consultants, developers and UX specialists through the **Crown Commercial Services’ Digital Outcomes and Specialists (DOS)** and **G-cloud** UK Government procurement frameworks."
+description: "We deliver our expertise as technology consultants, developers and UX specialists through the Crown Commercial Services’ Digital Outcomes and Specialists (DOS) and G-cloud UK Government procurement frameworks."
 title: Digital Outcomes and Specialists
 author: "JohnGriffin"
 date: "2016-04-11"
