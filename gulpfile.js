@@ -55,12 +55,12 @@ gulp.task('unpack-svg', function(cb){
 		return cb();
 	}
 
-	var cmd_to_unzip = 'unzip -o misc/svg-icons.zip -d misc/svg-icons';
-	var cmd_to_clean = 'rm -rf misc/svg-icons';
+	var cmd_to_unzip = 'unzip -o static/svg-icons.zip -d static/svg-icons';
+	var cmd_to_clean = 'rm -rf static/svg-icons';
 	var cmd_to_move  = [
-		'cat misc/svg-icons/style.css > themes/atchai/static/dist/css/svg-icons.css',
-		'cat misc/svg-icons/symbol-defs.svg > themes/atchai/static/img/svg-icons.svg',
-		'cp misc/svg-icons/svgxuse.min.js themes/atchai/static/dist/js/'
+		'cat static/svg-icons/style.css > themes/atchai/static/dist/css/svg-icons.css',
+		'cat static/svg-icons/symbol-defs.svg > themes/atchai/static/img/svg-icons.svg',
+		'cp static/svg-icons/svgxuse.min.js themes/atchai/static/dist/js/'
 	];
 
 	run(cmd_to_unzip)
