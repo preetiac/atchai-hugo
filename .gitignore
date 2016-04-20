@@ -1,4 +1,14 @@
 /public
 .DS_Store
 themes/atchai/static/bower_components/
+
 node_modules/
+
+
+# generated from sass
+themes/atchai/static/dist/css/index.min.css
+
+# svg-icons extracted files
+themes/atchai/static/dist/css/svg-icons.css
+themes/atchai/static/dist/js/svgxuse.min.js
+themes/atchai/static/img/svg-icons.svg
