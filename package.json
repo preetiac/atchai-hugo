@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/atchai/atchai-hugo#readme",
   "dependencies": {
+    "child-process-promise": "^2.0.1",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0"
   }
