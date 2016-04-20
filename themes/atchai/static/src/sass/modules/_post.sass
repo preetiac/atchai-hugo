@@ -39,7 +39,7 @@
             
     a
         color: $post-anchor
-        font-family: Raleway-SemiBold
+        font-family: Raleway-Regular
         transition: .3s color
 
         &:hover, &:focus, &:active
@@ -98,6 +98,7 @@
         padding-top: 25px
         padding-bottom: 25px
         padding-left: 0px
+        margin-bottom: 0
         
         > li
             counter-increment: step-counter
@@ -105,9 +106,6 @@
             
             p
                 margin-bottom: 0px
-            
-            &:last-child
-                margin-bottom: 50px
             
             ul
                 padding-left: 95px
@@ -118,10 +116,12 @@
                 background: url('/img/Bullet.svg')
                 background-size: 100%
                 background-repeat: no-repeat
-                background-position: 0px 3.5px
+                background-position: 0px 2px
                 padding: 14px
                 margin-right: 10px
                 color: white
+                font-family: sans-serif
+                font-size: 15px
             
     ul
         list-style: disc url('/img/Bullet-Ul.svg')
