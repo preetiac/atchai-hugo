@@ -1,3 +1,4 @@
+var fs = require('fs');
 var del  = require('del');
 var gulp = require('gulp');
 var load = require('gulp-load-plugins');
@@ -70,4 +71,17 @@ gulp.task('unpack-svg', function(cb){
 		.catch(console.error.bind(console));
 });
 
-gulp.task('build', ['sass', 'unpack-svg']);
+gulp.task('verify', ['sass', 'unpack-svg'], function(cb){
+	var list = [
+		'themes/atchai/static/dist/css/index.min.css',
+		'themes/atchai/static/dist/css/svg-icons.css',
+		'themes/atchai/static/dist/js/svgxuse.min.js',
+		'themes/atchai/static/img/svg-icons.svg'
+	].map(function(x){
+		return [fs.existsSync(x) ? 'exists' : 'not found', x]
+	}).join('\n');
+	console.log(list);
+	cb();
+});
+
+gulp.task('build', ['sass', 'unpack-svg', 'verify']);
