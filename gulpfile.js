@@ -7,13 +7,15 @@ var exec = require('child-process-promise').exec;
 var $ = load();
 
 // Vars
+var IS_PROD  = process.env.NODE_ENV === 'production' ? true : false;
+
 var sass_src = 'themes/atchai/static/src/sass/';
 var sass_out = 'themes/atchai/static/dist/css/';
 var sass_options = {
 	file: 'index.min.css',
-	outputStyle: 'expanded',
-	sourceMap: true,
-	sourceMapEmbed: true
+	outputStyle: IS_PROD ? 'compressed': 'expanded',
+	sourceMap: !IS_PROD,
+	sourceMapEmbed: !IS_PROD
 };
 
 // Tasks
@@ -65,3 +67,5 @@ gulp.task('unpack-svg', function(cb){
 		.then(()=> cb())
 		.catch(console.error.bind(console));
 });
+
+gulp.task('build', ['sass', 'unpack-svg']);
