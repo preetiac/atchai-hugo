@@ -11,6 +11,8 @@ Atchai.com marketing website based on Hugo. There is a [full write up](http://at
 ## Getting Started
 1.  ```git clone https://github.com/atchai/atchai-hugo```
 2.  Install Hugo:  http://gohugo.io/overview/installing/
+3.  Build js and css: 
+```gulp build```
 3.  Run local development server, watching filesystem for changes and live reloading in browser
 ```hugo server --watch --verbose```
 4.  To watch for sass changes, in another terminal, run `gulp`
@@ -31,7 +33,7 @@ NODE_ENV=production gulp build
 * It will load your currently selected icons in pack, allows you to add/update more icons.
 * When you're done, download svg zip from app, and place it in `./misc`, rename the zip to `svg-icons.zip`   
 
-Usage is illustrated [here](https://github.com/nanuclickity/atchai-hugo/blob/master/themes/atchai/layouts/blog/single.html#L26-L28).
+Usage is illustrated [here](https://github.com/atchai/atchai-hugo/blob/master/themes/atchai/layouts/blog/single.html#L26-L28).
 
 
 
