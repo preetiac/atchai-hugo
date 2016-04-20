@@ -18,6 +18,8 @@ var sass_options = {
 	sourceMapEmbed: !IS_PROD
 };
 
+console.log('Production Build: ' + IS_PROD);
+
 // Tasks
 gulp.task('default', ['unpack-svg','sass:watch']);
 
