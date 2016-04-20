@@ -14,7 +14,7 @@ There is a focus on the more affordable, cloud-based and open products, avoiding
 
 In order to assess which tool is best for our purposes, we need to know something about the ways in which they differ. I’d advise against creating a hideous granular matrix to evaluate features. Instead just narrow down what you’re looking for and then try some tools out. I suggest this as a decent enough high-level framework for classifying data visualisation tools.
 
-**Who is the Target Market**
+#### Who is the Target Market
 
 * Non-expert Business Users
 * Analysts / Statisticians
@@ -23,7 +23,7 @@ In order to assess which tool is best for our purposes, we need to know somethin
 * Developers
 * Industry specific — e.g. finance / HR / marketing
 
-**What is the Pricing Model**
+#### What is the Pricing Model
 
 * One-off
 * Per visualisation / dataset / dashboard
@@ -32,19 +32,19 @@ In order to assess which tool is best for our purposes, we need to know somethin
 * Per volume of data
 * Free 
 
-**Technical Architecture & Scalability**
+#### Technical Architecture & Scalability
 
 * Client / Server (can be very scalable depending on the server tech)
 * Desktop only (limited by the volume of data that can be processed on 1 machine)
 * Browser only (limited by volume of data that can be processed in-browser)
 
-**Customisability**
+#### Customisability
 
 * Black Box —  take it or leave it.
 * Open API — possible to integrate with other data sources/viz tools.
 * Open Source — should be possible to change anything, YMMV.
 
-**Type of visualisations**
+#### Type of visualisations
 
 You really need to have some idea of what visualisations you want to create. Tools tend to specialise. A decent framework for thinking about the available options would be Stephen Few’s 8 quantitative messages:
 
@@ -59,7 +59,7 @@ You really need to have some idea of what visualisations you want to create. Too
 
 I would also add one to Few’s list — Relationships. Often thought of as graphs / networks.
 
-**Key Functionality**
+#### Key Functionality
 
 * Static / interactive
 * Single chart / dashboards
@@ -92,7 +92,7 @@ Perfect for quick, single charts to be embedded within your website / blog. Can 
 
 Supremely customisable single charts and static dashboards that can be created through the UI. Ideal for producing complex scientific plots, it has connectors for common data analysis software such as R, Python, MATLAB.
 
-[![plotly chart](/images/blog-datavis-plotly.png)](https://plot.ly/)
+[![plotly chart](/images/blog-datavis-plotly.png)](https://plot.ly/)       
 
 **Target Market** — Data scientists, Analysts, Developers.
 
