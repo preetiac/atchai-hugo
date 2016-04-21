@@ -15,7 +15,8 @@ Atchai.com marketing website based on Hugo. There is a [full write up](http://at
 ```gulp build```
 3.  Run local development server, watching filesystem for changes and live reloading in browser
 ```hugo server --watch --verbose```
-4.  To watch for sass changes, in another terminal, run `gulp`
+4.  Install npm modules by `npm install`
+5.  To watch for sass changes, in another terminal, run `gulp`
 
 ## Gulp
 ```sh

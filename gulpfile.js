@@ -1,3 +1,4 @@
+var fs = require('fs');
 var del  = require('del');
 var gulp = require('gulp');
 var load = require('gulp-load-plugins');
@@ -17,6 +18,8 @@ var sass_options = {
 	sourceMap: !IS_PROD,
 	sourceMapEmbed: !IS_PROD
 };
+
+console.log('Production Build: ' + IS_PROD);
 
 // Tasks
 gulp.task('default', ['unpack-svg','sass:watch']);
@@ -53,12 +56,12 @@ gulp.task('unpack-svg', function(cb){
 		return cb();
 	}
 
-	var cmd_to_unzip = 'unzip -o misc/svg-icons.zip -d misc/svg-icons';
-	var cmd_to_clean = 'rm -rf misc/svg-icons';
+	var cmd_to_unzip = 'unzip -o themes/atchai/static/misc/svg-icons.zip -d themes/atchai/static/misc/svg-icons';
+	var cmd_to_clean = 'rm -rf themes/atchai/static/misc/svg-icons';
 	var cmd_to_move  = [
-		'cat misc/svg-icons/style.css > themes/atchai/static/dist/css/svg-icons.css',
-		'cat misc/svg-icons/symbol-defs.svg > themes/atchai/static/img/svg-icons.svg',
-		'cp misc/svg-icons/svgxuse.min.js themes/atchai/static/dist/js/'
+		'cat themes/atchai/static/misc/svg-icons/style.css > themes/atchai/static/dist/css/svg-icons.css',
+		'cat themes/atchai/static/misc/svg-icons/symbol-defs.svg > themes/atchai/static/img/svg-icons.svg',
+		'cp themes/atchai/static/misc/svg-icons/svgxuse.min.js themes/atchai/static/dist/js/'
 	];
 
 	run(cmd_to_unzip)
@@ -68,4 +71,17 @@ gulp.task('unpack-svg', function(cb){
 		.catch(console.error.bind(console));
 });
 
-gulp.task('build', ['sass', 'unpack-svg']);
+gulp.task('verify', ['sass', 'unpack-svg'], function(cb){
+	var list = [
+		'themes/atchai/static/dist/css/index.min.css',
+		'themes/atchai/static/dist/css/svg-icons.css',
+		'themes/atchai/static/dist/js/svgxuse.min.js',
+		'themes/atchai/static/img/svg-icons.svg'
+	].map(function(x){
+		return [fs.existsSync(x) ? 'exists' : 'not found', x]
+	}).join('\n');
+	console.log(list);
+	cb();
+});
+
+gulp.task('build', ['sass', 'unpack-svg', 'verify']);
