@@ -26,13 +26,13 @@ build:
         name: echo
         code: |
           echo "Starting build"
+    - npm-install
+    - hgen/gulp:
+            tasks: build
     - arjen/hugo-build:
         version: 0.14
         theme: atchai
         flags: --buildDrafts=false
-    - npm-install
-    - hgen/gulp:
-            tasks: build
 deploy:
     steps:
         # Execute the s3sync deploy step, a step provided by wercker
