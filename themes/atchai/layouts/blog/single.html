@@ -19,42 +19,53 @@
                   </div>
                   <div class="post-author-right-container">
                       <h4 class="post-author-header">{{ $author.name }}</h4>
-                      <p class="post-author-text">{{ $author.bio }}  <a href="mailto:{{ $author.email }}">Email</a></p>
+                      <p class="post-author-text">{{ $author.bio }}</p>
                       <p class="post-author-date"><em>Posted on: {{ .Date.Format "2 Jan 2006" }}</em></p>
                       
-                      <p class='post-social-icons'>
-                          <!--
-                        <a class='social-icon' href='#' href='#'>
-                          <svg class='svg-icon'>
-                            <use xlink:href='/img/svg-icons.svg#svg-icon-mail'/>
+                      <p class="post-social-icons">
+                        {{ if isset $author "email"  }}
+                        <a class="social-icon" href="mailto:{{ $author.email }}">
+                          <svg class="svg-icon">
+                            <use xlink:href="/img/svg-icons.svg#svg-icon-mail"/>
                           </svg>
                         </a>
-                        <a class='social-icon' href='#'>
-                          <svg class='svg-icon'>
-                            <use xlink:href='/img/svg-icons.svg#svg-icon-linkedin'/>
+                        {{ end }}
+                        {{ if isset $author "twitter"  }}
+                        <a class="social-icon" href="{{ $author.twitter }}">
+                          <svg class="svg-icon">
+                            <use xlink:href="/img/svg-icons.svg#svg-icon-twitter"/>
                           </svg>
                         </a>
-                        <a class='social-icon' href='#'>
-                          <svg class='svg-icon'>
-                            <use xlink:href='/img/svg-icons.svg#svg-icon-medium'/>
+                        {{ end }}
+                        {{ if isset $author "linkedin"  }}
+                        <a class="social-icon" href="{{ $author.linkedin }}">
+                          <svg class="svg-icon">
+                            <use xlink:href="/img/svg-icons.svg#svg-icon-linkedin"/>
                           </svg>
                         </a>
-                        <a class='social-icon' href='#'>
-                          <svg class='svg-icon'>
-                            <use xlink:href='/img/svg-icons.svg#svg-icon-github'/>
+                        {{ end }}
+                        {{ if isset $author "medium"  }}
+                        <a class="social-icon" href="{{ $author.medium }}">
+                          <svg class="svg-icon">
+                            <use xlink:href="/img/svg-icons.svg#svg-icon-medium"/>
                           </svg>
                         </a>
-                        <a class='social-icon' href='#'>
-                          <svg class='svg-icon'>
-                            <use xlink:href='/img/svg-icons.svg#svg-icon-twitter'/>
+                        {{ end }}
+                        {{ if isset $author "github"  }}
+                        <a class="social-icon" href="{{ $author.github }}">
+                          <svg class="svg-icon">
+                            <use xlink:href="/img/svg-icons.svg#svg-icon-github"/>
                           </svg>
                         </a>
-                        <a class='social-icon' href='#'>
-                          <svg class='svg-icon'>
-                            <use xlink:href='/img/svg-icons.svg#svg-icon-facebook'/>
-                          </svg>
-                        </a>
-                              -->
+                        {{ end }}
+                        
+                        <!--
+                            <a class="social-icon" href="#">
+                              <svg class="svg-icon">
+                                <use xlink:href="/img/svg-icons.svg#svg-icon-facebook"/>
+                              </svg>
+                            </a>
+                        -->
                       </p>
                       
                   </div>

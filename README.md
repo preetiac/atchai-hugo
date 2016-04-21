@@ -11,12 +11,12 @@ Atchai.com marketing website based on Hugo. There is a [full write up](http://at
 ## Getting Started
 1.  ```git clone https://github.com/atchai/atchai-hugo```
 2.  Install Hugo:  http://gohugo.io/overview/installing/
-3.  Build js and css: 
-```gulp build```
 3.  Run local development server, watching filesystem for changes and live reloading in browser
 ```hugo server --watch --verbose```
 4.  Install npm modules by `npm install`
-5.  To watch for sass changes, in another terminal, run `gulp`
+5.  Build js and css: 
+```gulp build```
+6.  To watch for sass changes, in another terminal, run `gulp`
 
 ## Gulp
 ```sh
