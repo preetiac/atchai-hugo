@@ -8,7 +8,7 @@ title: "The Beauty of Quality Data"
 
 
 *This is a write-up of a talk I originally gave at the [Open Data
-Institute](http://theodi.org/) in London on 22nd March 2016 on how we can improve open data quality, and why we must.*
+Institute](http://theodi.org/lunchtime-lectures/friday-lunchtime-lecture-the-beauty-of-quality-data) in London on 22nd March 2016 on how we can improve open data quality, and why we must.*
 
 We have more open data than ever before, and most of it is really useful. A lot
 of it quite hard to use, and some of it is completely useless. Government policy
