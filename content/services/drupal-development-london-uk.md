@@ -3,6 +3,9 @@ description: ""
 title: Drupal development and consultancy
 author: "JohnGriffin"
 date: "2014-09-11"
+aliases: [
+    "/about-us/drupal"
+]
 ---
 
 We deliver Drupal expertise as consultants, developers and UX specialists. We work with enterprise level clients and creative agencies as a technical partner, and provide an end-to-end service for SMEs and charities.
