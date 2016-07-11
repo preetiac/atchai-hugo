@@ -1,5 +1,5 @@
 ---
-title: Ambitious Back-end / Full-Stack Developer 
+title: Ambitious Back-end / Full-Stack Developer (Drupal + more!)
 author: "JohnGriffin"
 date: "2015-09-11"
 ---
@@ -19,9 +19,6 @@ We don’t expect long hours, but we do expect you to be able to manage your tim
 - Excellent communication and problem solving abilities
 - Good sense of humour!
 - Able to work in London
-
-### Salary
-- Starting at £35-40k plus bonus.
 
 ### Apply
 Please email our CTO ([john@atchai.com](mailto:john@atchai.com)) and let us know what interests you about the opportunity.  Please provide some examples of your work (ideally a github link) and CV (linkedin link is fine).  If  there's a fit then we'll set up a time to meet to get to know each other better.
