@@ -1,8 +1,7 @@
 ---
 title: "Data Driven Web Applications"
 h1: "Data Driven Web Applications"
-portfolio_includes: []
-testimonial_include: 1
+partial_includes: ["case-study-dataseed.html", "case-study-groupseer.html", "case-study-hscic.html", "testimonial-turner.html"]
 ---
 
 ## We build the fuckers

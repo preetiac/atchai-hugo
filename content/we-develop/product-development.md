@@ -1,8 +1,7 @@
 ---
 title: "Product Development"
 h1: "Product Development"
-portfolio_includes: []
-testimonial_include: 1
+partial_includes: ["case-study-dataseed.html", "case-study-internews.html", "case-study-turner.html", "testimonial-turner.html"]
 ---
 
 ## We build the fuckers
