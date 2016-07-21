@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-gb"
-title = "Data & Web Technology Consultancy in London"
+title = "Web Technology & Product Development Consultancy in London"
 theme = "atchai"
 relativeurls = true
 canonifyurls = false

@@ -1,14 +1,17 @@
 ---
 title: "Conversational UI"
 h1: "Conversational UI"
-partial_includes: ["case-study-mindbot.html", "case-study-echonotes.html", "case-study-surly.html", "testimonial-turner.html"]
+partial_includes: ["case-studies-chatbots.html", "testimonial-turner.html"]
 ---
 
-## RISE OF THE BOTS
+## Rise of the Bots
 Messaging apps have become ubiquitous and can claim higher engagement and more monthly active users than the big four social networks.  Messaging bots, or chatbots, are easier to install, easier to distribute, and often cheaper to build than traditional mobile applications.
 
 ## Chatbot development
 We have experience developing chatbots for all the major messaging platforms including <strong>Slack Integrations</strong>, <strong>Facebook Messenger Bots</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Echo (Alexa)</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
+
+### About Atchai
+Established in 2010 and based in London, Atchai is a digital consultancy and development house based in London, UK. We've developed innovative digital products for fast-moving start-ups and massive enterprise organisations such as Bank of England, NHS, and Turner Broadcasting.
 
 
 <div class="container-fluid img-form">

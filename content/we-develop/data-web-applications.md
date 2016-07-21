@@ -1,7 +1,7 @@
 ---
 title: "Data Driven Web Applications"
 h1: "Data Driven Web Applications"
-partial_includes: ["case-study-dataseed.html", "case-study-groupseer.html", "case-study-hscic.html", "testimonial-turner.html"]
+partial_includes: ["case-studies-data.html", "testimonial-inition.html"]
 ---
 
 ## We build the fuckers
@@ -9,6 +9,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quam repudiandae
 
 ### Right yeah
 We can help you understand a naural language interface is right for your application.We have experience developing chabots for all the major messaging platforms includind slack, Facebook,SMS, as well as voice interfaces such as Amazon Echo (Alexa).
+
+### About Atchai
+Established in 2010 and based in London, Atchai is a digital consultancy and development house based in London, UK. We've developed innovative digital products for fast-moving start-ups and massive enterprise organisations such as Bank of England, NHS, and Turner Broadcasting.
 
 
 <div class="row row-mod skills-images">
@@ -27,12 +30,3 @@ We can help you understand a naural language interface is right for your applica
       </div>
     </div>
 </div>
-
-### Case studies
-Dataseed
-Groupseer
-HSCIC
-
-
-### Testemonial 
-Adrian - Inition
