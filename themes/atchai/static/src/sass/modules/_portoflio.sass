@@ -10,11 +10,15 @@
         font-family: Raleway-Bold
         padding-bottom: 10px
 
+    img
+        position: relative
+        z-index: 3
+
     &-thin
         font-family: Raleway-Regular
 
     &-dataseed-chevron
-        +chevron($about-bg)
+        +chevron-index-null($about-bg)
 
     &-groupseer-chevron
         +chevron(white)
@@ -23,7 +27,7 @@
         +chevron(black)
 
     &-newsverify-chevron
-        +chevron(#F2F2F2)
+        +chevron-index(#F2F2F2)
 
     &-data-chevron
         +chevron(#F2F2F2)
@@ -45,7 +49,7 @@
 
     &-tv
         position: relative
-        bottom: 100px
+        bottom: 50px
 
         &-container
             padding-top: 100px
@@ -134,6 +138,8 @@
 
         .portfolio-logo
             display: inline-block
+            position: relative
+            z-index: 3
 
             img
                 min-width: 80px
@@ -243,12 +249,16 @@
 
         p
             margin-bottom: 25px
+            position: relative
+            z-index: 3
 
         &-image
             padding-left: 75px
 
             img
                 width: 100%
+
+
 
     &-tech
         text-align: center
@@ -382,12 +392,14 @@
             margin-right: 10px
 
         &-logo
-            padding-right: 0px
-            padding-left: 0px
+            padding-right: 0
+            padding-left: 0
 
             &-image
-                padding-left: 0px
-                padding-right: 0px
+                padding-left: 0
+                padding-right: 0
+                position: relative
+                z-index: 3
 
                 img
                     max-width: 500px
@@ -413,7 +425,9 @@
                 margin-bottom: 20px
 
             &-text
-                padding-left: 0px
+                padding-left: 0
+                position: relative
+                z-index: 3
 
         &-resultsmark .portfolio-logo-image img
             min-width: 0

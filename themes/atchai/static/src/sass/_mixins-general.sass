@@ -110,6 +110,42 @@
         z-index: 1
         border-left: none
 
+=chevron-index-null($color)
+
+    position: relative
+
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50.1%
+        background: $color
+        -webkit-transform: skew(0deg, 6deg)
+        -moz-transform: skew(0deg, 6deg)
+        -ms-transform: skew(0deg, 6deg)
+        -o-transform: skew(0deg, 6deg)
+        transform: skew(0deg, 6deg)
+        z-index: 0
+        border-right: none
+
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 50%
+        background: $color
+        -webkit-transform: skew(0deg, -6deg)
+        -moz-transform: skew(0deg, -6deg)
+        -ms-transform: skew(0deg, -6deg)
+        -o-transform: skew(0deg, -6deg)
+        transform: skew(0deg, -6deg)
+        z-index: 0
+        border-left: none
+
 @font-face
     font-family: 'Glyphicons Halflings'
     src: url('/fonts/Bootstrap/glyphicons-halflings-regular.eot')
