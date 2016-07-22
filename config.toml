@@ -8,7 +8,7 @@ paginate = 10
 
 [params]
   prod_baseurl = "http://atchai.com"
-  metadescription = "Atchai develops sophisticated data-driven web applications using cutting edge technology and an agile, user-centred approach."
+  metadescription = "Atchai develops sophisticated digital products using cutting edge technology with an agile, user-centred approach."
   
   
 [params.authors]

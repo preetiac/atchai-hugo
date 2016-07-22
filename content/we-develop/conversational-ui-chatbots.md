@@ -10,10 +10,6 @@ Messaging apps have become ubiquitous and can claim higher engagement and more m
 ## Chatbot development
 We have experience developing chatbots for all the major messaging platforms including <strong>Slack Integrations</strong>, <strong>Facebook Messenger Bots</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Echo (Alexa)</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
 
-### About Atchai
-Established in 2010 and based in London, Atchai is a digital consultancy and development house based in London, UK. We've developed innovative digital products for fast-moving start-ups and massive enterprise organisations such as Bank of England, NHS, and Turner Broadcasting.
-
-
 <div class="container-fluid img-form">
     <div class="row">
         <div class="col-md-3"><a href="https://slack.com/"><img src="/img/slack.svg" alt="slack integration"></a></div>
@@ -40,3 +36,8 @@ Established in 2010 and based in London, Atchai is a digital consultancy and dev
         </div>
     </div>
 </div>
+<br>
+
+### About Atchai
+Established in 2010 and based in London, Atchai is a digital <strong>consultancy</strong> and <strong>development</strong> house based in <strong>London, UK</strong>. We've developed <strong>innovative</strong> digital products for both fast-moving <strong>start-ups</strong> and massive <strong>enterprise</strong> organisations such as Bank of England, NHS, and Turner Broadcasting.
+
