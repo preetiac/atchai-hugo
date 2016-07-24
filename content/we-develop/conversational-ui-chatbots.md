@@ -5,7 +5,7 @@ partial_includes: ["case-studies-chatbots.html", "testimonial-turner.html"]
 ---
 
 ## Rise of the Bots
-Messaging apps have become ubiquitous and can claim higher engagement and more monthly active users than the big four social networks.  Messaging bots, or chatbots, are easier to install, easier to distribute, and often cheaper to build than traditional mobile applications.
+Messaging apps have become ubiquitous and can claim higher engagement and more monthly active users than the big four social networks.  Frequently hyped as an answer to "app fatigue", <strong>messaging bots</strong>, or <strong>chatbots</strong>, do not require your users to install a new app, and are often cheaper to build than traditional mobile applications.  
 
 ## Chatbot development
 We have experience developing chatbots for all the major messaging platforms including <strong>Slack Integrations</strong>, <strong>Facebook Messenger Bots</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Echo (Alexa)</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
