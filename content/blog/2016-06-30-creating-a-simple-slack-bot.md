@@ -97,7 +97,7 @@ account. There’s a good on-boarding process that runs on Slack, but there’e 
 need to go through this as it will fork an example repo for you, which you don’t
 need to do if you’re following this article and creating your own bot.
 
-Next we need to [create a new project](https://beepboophq.com/0_o/my-projects),
+Next we need to create a new project,
 and select the Github repo that you’ve pushed your code to. Beepboop will set up
 a webhook that will re-build your project on every commit to the master branch.
 
