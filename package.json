@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/atchai/atchai-hugo.git"
   },
-  "author": "Tushar Kant <nanu.clickity@gmail.com> (http://localhost)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/atchai/atchai-hugo/issues"

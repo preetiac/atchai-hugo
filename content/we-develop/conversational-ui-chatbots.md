@@ -2,6 +2,8 @@
 title: "Conversational UI"
 h1: "Conversational UI"
 partial_includes: ["case-studies-chatbots.html", "testimonial-turner.html"]
+sitemap:
+    priority: 0.8
 ---
 
 ## Rise of the Bots

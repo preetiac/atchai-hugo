@@ -2,6 +2,8 @@
 title: "Data Driven Web Applications"
 h1: "Data Driven Web Applications"
 partial_includes: ["case-studies-data.html", "testimonial-inition.html"]
+sitemap:
+    priority: 0.8
 ---
 
 ## Smart and sophisticated

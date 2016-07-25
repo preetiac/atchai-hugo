@@ -2,6 +2,8 @@
 title: "Product Development"
 h1: "Product Development"
 partial_includes: ["case-studies-product-dev.html", "testimonial-turner.html"]
+sitemap:
+    priority: 0.8
 ---
 
 ## Rapid Innovation
