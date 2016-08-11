@@ -5,25 +5,35 @@
     <meta name="description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
     
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
+    {{ if isset .Params "header_image"  }}
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://atchai.com{{ .Params.header_image }}">
+    {{ else }}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="http://atchai.com/img/logo-no-text-525px.png">
+    {{ end }}
     <meta name="twitter:site" content="@atchai">
-    <meta name="twitter:title" content="{{ .Title }} - Atchai Digital">
+    <meta name="twitter:title" content="{{ .Title }} - Atchai">
     <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}">
-    <!-- Twitter Summary card images must be at least 120x120px -->
-    <meta name="twitter:image" content="http://atchai.com/img/logo-no-text-525px.png">
+    
 
     <!-- Open Graph data -->
+    {{ if isset .Params "header_image"  }}
+        <meta property="og:image" content="http://atchai.com{{ .Params.header_image }}" />
+    {{ else }}
+        <meta property="og:image" content="http://atchai.com/img/logo-no-text-525px.png" />
+    {{ end }}
     <meta property="og:title" content="{{ .Title }} - Atchai" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://atchai.com{{ .Permalink }}" />
-    <meta property="og:image" content="http://atchai.com/img/logo-no-text-525px.png" />
     <meta property="og:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.metadescription}}{{end}}" /> 
     <meta property="og:site_name" content="Atchai" />
     <meta property="fb:admins" content="688546114" />
     <link href=”https://plus.google.com/108322447081262331696” rel=”publisher” />
     
     <!-- ADDING CSS -->
-    <link rel="stylesheet" type="text/css" href="/dist/css/index.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/index.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/dist/css/svg-icons.css"/>
 
     <!--[if lt IE 9]>
     <script src="/dist/js/html5shiv.min.js"></script>

@@ -3,7 +3,7 @@ title: ResultsMark
 date: "2014-05-11"
 ---
 
-[ResultsMark](https://www.resultsmark.org/) is a platform to collect, analyse and share reliable social impact data. It incorporates our [Dataseed data visualisation platform](http://getdataseed.com), providing ResultsMark users with rich insight into the services they provide, use or fund.
+ResultsMark is a platform to collect, analyse and share reliable social impact data. It incorporates our [Dataseed data visualisation platform](http://getdataseed.com), providing ResultsMark users with rich insight into the services they provide, use or fund.
 
 ![resultsmark screenshot](/images/resultsmark-screen_0.png) 
 

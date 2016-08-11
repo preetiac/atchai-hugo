@@ -10,7 +10,7 @@ title: Google Refine vs XLWrap
 
 We've been using [XLWrap](http://xlwrap.sourceforge.net/) as a tool to take data from spreadsheets and turn it into RDF triples.  At the time we started using XLWrap, there was no alternative that would enable us to generate multiple triples from one cell in a spreadsheet (we'll explain why this is important later), and there was also no [Google Refine](http://code.google.com/p/google-refine/).  The product that would later become Google Refine was called Freebase Gridworks, but at the time we were evaluating tools it had no RDF support, so didn't really qualify.
 
-Now that's all changed.  Google Refine is a great tool for cleaning up messy data (which open data so often is) and now that it has the [RDF extension](http://lab.linkeddata.deri.ie/2010/grefine-rdf-extension/), built by the smart folks at [DERI](http://www.deri.ie/), it's time to re-evaluate and see if it should form a part of our <a href="portfolio/linked-data-platform">Linked Data Platform</a> tool-chain.
+Now that's all changed.  Google Refine is a great tool for cleaning up messy data (which open data so often is) and now that it has the [RDF extension](https://github.com/fadmaa/grefine-rdf-extension), built by the smart folks at [DERI](http://www.deri.ie/), it's time to re-evaluate and see if it should form a part of our <a href="portfolio/linked-data-platform">Linked Data Platform</a> tool-chain.
 
 ## Criteria
 There are a few things that we think are really important for this part of our toolchain, we will use these as criteria to compare XLWrap and Google Refine.  The main things we're interested in are:
@@ -22,7 +22,7 @@ There are a few things that we think are really important for this part of our t
 * Ease of use
 * Project momentum and developer community
 
-It's important to be able to generate multiple triples for each cell in the spreadsheet, because in [datacube](http://publishing-statistical-data.googlecode.com/svn/trunk/specs/src/main/html/cube.html)</a> we create one Observation resource for each cell, but we also want to attach properties for the dimensions and measures associated with this observation.  For example, a cell in the spreadsheet could have a value of "76.6", but this may represent the average life expectancy of a female in Newport in 2004.  We may model this in datacube as:
+It's important to be able to generate multiple triples for each cell in the spreadsheet, because in [datacube](https://www.w3.org/TR/vocab-data-cube/)</a> we create one Observation resource for each cell, but we also want to attach properties for the dimensions and measures associated with this observation.  For example, a cell in the spreadsheet could have a value of "76.6", but this may represent the average life expectancy of a female in Newport in 2004.  We may model this in datacube as:
 
        eg:o1 a qb:Observation;
             qb:dataSet  eg:dataset-le1 ;

@@ -1,0 +1,19 @@
+{{ partial "small-header.html" . }}
+
+<section class="landing-top-section">
+    <div class="landing-top-block">
+        <h1>{{ .Title }}</h1>
+
+        <div class="landing-top-content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+
+{{ range $index, $path := .Params.partial_includes }}
+  {{ partial $path }}
+{{ end }}
+
+
+{{ partial "footer.html" . }}
