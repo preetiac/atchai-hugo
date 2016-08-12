@@ -6,7 +6,7 @@ header_image: "/images/blog-vinylst-header.jpg"
 title: "Is Your Start-up Idea Really Worth It?"
 ---
 
-<p style="text-align: center;"><strong>How To Evaluate A New Digital Product Business</strong></p>
+<h2 class="subtitle">How To Evaluate A New Digital Product Business</h2>
 
 You’re in love with your idea, but love is blind. I’m here to provide a friendly
 slap around the face and to tell you what everyone else is afraid to, before the
