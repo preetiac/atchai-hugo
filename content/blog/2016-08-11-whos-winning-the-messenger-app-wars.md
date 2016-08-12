@@ -4,6 +4,7 @@ date: "2016-08-11"
 published: true
 title: "Who’s winning the messenger app wars?"
 author: PhilipOlivier
+header_image: "/images/blog-header-generic.png"
 ---
 
 <h2 class="subtitle">A Review and Comparison of the Most Popular Chatbot Platforms</h2>
