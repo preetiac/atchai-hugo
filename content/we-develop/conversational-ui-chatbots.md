@@ -1,6 +1,6 @@
 ---
-title: "Conversational UI"
-h1: "Conversational UI"
+title: "Chatbot Development & Conversational UI Company"
+H1: "Conversational UI"
 partial_includes: ["case-studies-chatbots.html", "testimonial-mindbot.html"]
 sitemap:
     priority: 0.8
