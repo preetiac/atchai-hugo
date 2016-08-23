@@ -11,41 +11,16 @@ header_image: "/images/blog-healthcare-chatbots-robot-doctor.png"
 
 Healthcare is a controversial topic. Rising costs, often attributed to factors such as increased life-expectancy and regulation, as well as a booming population add continuous pressure to reform and innovate in this space. What’s more, the quality of healthcare delivered is often questioned when compared to these rising costs.
 
-There is a rich history of medical ‘expert systems’ developed to reduce the increasing healthcare costs, meet new regulatory requirements, and satisfying wider requirements to improve the quality and effectiveness of healthcare while maintaining the operational efficiency of healthcare organisations. In this article we touch on some of the biggest systems, the challenges faced by the sector and how chatbots can help shape the delivery of healthcare services.
+There is a rich history of medical **expert systems** developed to reduce the increasing healthcare costs, meet new regulatory requirements, and satisfy wider requirements to improve the quality and effectiveness of healthcare while maintaining the operational efficiency of healthcare organisations. First there was the **Telehealth movement**, delivering healthcare at a distance.  Then came the **mHealth**, or Mobile Health movement, making many similar promises but typically using the smartphone app as it's platform for delivery.
 
-#### Telehealth
+In this article we touch on some of the biggest challenges faced by the sector and how **chatbots** can help shape the delivery of healthcare services.
 
-Telehealth is a collection of means or methods for enhancing health care, public health, and health education delivery and support using telecommunications technologies. Telehealth encompasses a broad variety of technologies and tactics — including webcams, videos, telecommunications and computing devices such as laptops and smartphones — to deliver virtual medical, health, and education services.
-
-#### Remote healthcare
-
-Remote patient monitoring uses digital technologies to collect medical and other forms of health data from individuals in one location and electronically transmit that information securely to health care providers in a different location for assessment and recommendations.
-
-#### mHealth
-
-mHealth is a general term used to describe the delivery of healthcare through mobile phones and communication devices. It is a sub-segment of a wider field, eHealth (a term for healthcare practice supported by electronic processes and communication), which covers the use of the internet to deliver health services and information.
-
-Over the past decade or so mHealth has been gaining momentum. However, when you compare stats on user engagement with mobile devices generally and patient engagement with mobile health applications there seems seems to be large drop-off for the latter.
-
-[The Patient Adoption of mHealth](http://www.imshealth.com/files/web/IMSH%20Institute/Reports/Patient%20Adoption%20of%20mHealth/IIHI_Patient_Adoption_of_mHealth.pdf): Use, Evidence and Remaining Barriers to Mainstream Adoption study shows that:
-
-> Just 12% of mHealth apps account for 90% of consumer downloads, and 36 apps generate nearly half of all downloads.
-
-> 40% of apps have fewer than 5000 downloads.
-
-> Nearly a quarter of consumer health apps are focused on disease treatment and management, whereas the rest target wellness management.
-
-> 10% of mHealth apps can connect to a device or sensor that provides physical function data.
-
-> Since 2013, the percentage of mHealth apps that can connect to social networks has risen from 26% to 34%. Of the top apps, 65% can be linked to social media.
-
-> Over 90% of mHealth apps remain free to consumers.
 
 ### So what’s gone wrong?
 
 #### Trust and quality
 
-When you visit your doctor, you trust that the advice given, or test and procedures recommended by them, are backed up by evidence-based guidelines developed as a result of numerous trials and tests, i.e. it has un unshakable foundation of truth. It’s your health after all! It’s natural to assume that the same assumption will be made for mobile healthcare application. 
+When you visit your doctor, you trust that the advice given, or test and procedures recommended by them, are backed up by evidence-based guidelines developed as a result of numerous trials and tests, i.e. it has un unshakable foundation of truth. It’s your health after all! It’s natural to assume that the same assumption will be made for mobile healthcare applications. 
 
 There have been numerous cases of apps either not working or getting it wrong, whether it’s an app that [falsely claimed to aid refugees at sea](http://www.theverge.com/2016/6/21/11988286/i-sea-app-refugees-ios-fake) or [misreads hypertension
 range](http://www.cnbc.com/2016/03/02/smartphone-app-misreads-hypertension-range.html). Reports like this make it harder to build trust around mobile healthcare apps. What’s more — the vast majority of healthcare apps are not regulated.
@@ -74,8 +49,7 @@ The biggest blocker for mobile health app adoption is perhaps the poor user expe
 
 Entering data into an app not only reminds you of your illness, it also feels cold and impersonal. No wonder it seems like work! We don’t want to spend time ‘working’ on our mobile devices. We use them for communication, information and entertainment.
 
-The [Quantified Self](http://www.livescience.com/39185-quantified-self-movement.html) (or life logging) movement is gaining momentum. It incorporates technology into personal data capture to improve one’s health and well-being. Technologies (such as apps, GPS enabled devices and physical activity trackers) allow individuals to track all aspects of their daily lives, including their total activity, number of steps, food they eat, amount of sleep, heart rate, arousal, blood oxygen levels
-and mood. 
+The [Quantified Self](http://www.livescience.com/39185-quantified-self-movement.html) (or life logging) movement incorporates technology into personal data capture to improve one’s health and well-being. Technologies (such as apps, GPS enabled devices and physical activity trackers) allow individuals to track all aspects of their daily lives, including their total activity, number of steps, food they eat, amount of sleep, heart rate, arousal, blood oxygen levels and mood. 
 
 Users set goals for themselves, view their stats and even share progress on social media. It’s highly personal, highly engaging and has element of [gamification](http://yukaichou.com/gamification-examples/what-is-gamification/) to it which increases engagement by users.
 
@@ -87,11 +61,11 @@ It’s not enough for healthcare services delivered via mobile to simply connect
 
 ![Messaging app active users](/images/blog-healthcare-chatbots-messagingapps-users.png)
 
-Smartphone users spend more time than ever in messaging apps. This is where the benefits of a [conversational UI](http://www.fastcodesign.com/3058546/conversational-interfaces-explained)
+Smartphone users spend more time than ever in messaging apps. This is where the benefits of a [conversational UI](/we-develop/conversational-ui-chatbots/)
 become clear.
 
-* Conversations is how we normally communicate — it feels natural. It’s familiar territory so there’s no learning curve.
-* We spent more time than ever in messaging apps on mobile devices. If the trends are anything to go by this is likely to increase.
+* Conversation is how we normally communicate — it feels natural. It’s familiar territory so there’s no learning curve.
+* We spend more time than ever in messaging apps on mobile devices. If the trends are anything to go by this is likely to increase.
 * Conversations can be personalised based on the users profile and responses. The tone of the conversation can be changed to match the users wants and needs, making for a much more empathetic exchange.
 * Conversations are linear so it’s easy to remember the conversational context by simply checking the last message and picking up where you left off.
 * Receiving alerts and prompting users to engage with the service feels natural and friendly. It’s a relationship rather than an interface. A conversation with a confidant.
@@ -99,7 +73,7 @@ become clear.
 
 #### Where are we today
 
-Although the has been new advances in AI, natural language processing is nowhere near good enough for complex conversations. The longer the conversation, the harder it becomes to automate it. 
+Although there have been advances in AI, natural language processing is still not capable of generating convincing dialog. The longer the conversation, the harder it becomes to automate it. 
 
 So what are chatbots good for right now, you might ask? The simple answer is short exchanges. Chatbots are great for checking in with users on a regular basis and collecting data. 
 
@@ -155,5 +129,4 @@ In April 2016 Boston Children’s Hospital announced a new “skill” for Alexa
 
 Yes! We’re one of only a few [companies that specialise in building chat bots](http://atchai.com/we-develop/conversational-ui-chatbots). We built [mindBot](http://www.mind-bot.com/) mentioned above. 
 
-[Get in touch](mailto:enquiries@atchai.com) — we’re a friendly bunch and love hearing about projects old and
-new.
+[Get in touch](mailto:enquiries@atchai.com) — we’re super excited about this space, we have built our own technology platform and developed a process to bring new bot products to market quicker than ever.  We'd love to share our technology and everything we've learnt with you.
