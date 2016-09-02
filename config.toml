@@ -13,9 +13,9 @@ paginate = 10
   
 [params.authors]
 	[params.authors.JohnGriffin]
-    name  = "John Griffin - Principal Consultant"
+    name  = "John Griffin - Founder and Principal Consultant"
 		thumbnail		= "/img/authors/vacant2.jpg"
-		bio				= "John’s background is as a software developer and technical leader. He has spent the last 12 years developing innovative digital products for clients including Amnesty International, BBC, NHS, Bank of England, Turner Broadcasting, UEFA and WWF, amongst others."
+		bio				= "John has a background as a creative technologist and entrepreneur. Armed with a Masters in Computer Systems Engineering and the experience gained from founding multiple companies, he has spent the last 12 years creating innovative digital products for clients including Amnesty International, BBC, NHS, Bank of England, Turner Broadcasting, and WWF.  "
     email   = "john@atchai.com"
     linkedin = "https://www.linkedin.com/in/j0hngriffin"
     twitter = "https://twitter.com/johngriffin"
