@@ -10,7 +10,7 @@ sitemap:
 Messaging apps have become ubiquitous and can claim higher engagement and more monthly active users than the big four social networks.  Frequently hyped as an answer to "app fatigue", <strong>messaging bots</strong>, or <strong>chatbots</strong>, do not require your users to install a new app, and are often cheaper to build than traditional mobile applications.  
 
 ## Chatbot development
-We have experience developing chatbots for all the major messaging platforms including <strong>Slack Integrations</strong>, <strong>Facebook Messenger Bots</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Echo (Alexa)</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
+We have experience developing AI chatbots for all the major messaging platforms including <strong>Slack</strong>, <strong>Facebook Messenger Bots</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Echo (Alexa)</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
 
 <div class="container-fluid img-form">
     <div class="row">
@@ -42,4 +42,13 @@ We have experience developing chatbots for all the major messaging platforms inc
 
 ### About Atchai
 Established in 2010 and based in London, Atchai is a digital <strong>consultancy</strong> and <strong>development</strong> house based in <strong>London, UK</strong>. We've developed <strong>innovative</strong> digital products for both fast-moving <strong>start-ups</strong> and massive <strong>enterprise</strong> organisations such as Bank of England, NHS, and Turner Broadcasting.
+
+<br>
+
+#### Our most popular blog posts on bots
+
+[How to run a successful chatbot project](/blog/2016-09-02-successful-chatbot-project)<br>
+[Paging Doctor Bot - Opportunities in Healthcare.](/blog/2016-08-16-paging-doctor-bot)<br>
+[Who's winning the Messenger App wars?](/blog/2016-08-11-whos-winning-the-messenger-app-wars)<br>
+[How much does it cost to build a bot?](/blog/2016-09-02-successful-chatbot-project)
 

@@ -12,26 +12,25 @@ We’ll cover how to select the right messaging platforms, how to design effecti
 conversations and why we’ve built our own platform for the rapid development and
 testing of bots. 
 
-Let's run through the process we use with our customers:
 
 ## What does success look like?
 
 Like any project, it’s important to start by defining goals that can be used to
 measure success.
 
-If this is a new startup you might want to check out our thoughts on [how to
-evaluate a new digital product
-business](http://atchai.com/blog/2016-05-31-is-your-start-up-idea-really-worth-it/)
-before spending anything on development.
-
 One of the unique things about bot products is that you can often **fake it
 until you make it**. Why not pretend to be your bot for a while and learn about
-your users’ expectations? If it’s good enough for Facebook M…
+your users’ expectations? Hey, if it’s good enough for Facebook M...
+
+If this is a new startup you might want to check out our thoughts on [how to
+evaluate a new digital product
+business](/blog/2016-05-31-is-your-start-up-idea-really-worth-it/)
+before spending anything on development.
 
 ## Discovery
 
 We use an [Agile development process that’s simple and
-flexible](http://atchai.com/about-us/how-we-work/), allowing us to be creative
+flexible](/about-us/how-we-work/), allowing us to be creative
 in achieving your goals. In order to hit the ground running there are a few
 things we need to figure out first.
 
@@ -44,13 +43,13 @@ true](https://www.tune.com/blog/no-the-average-american-does-not-download-0-apps
 but the point remains: **We need to meet customers where they already are**.
 What is your audience’s favourite messaging app?
 
-![](https://cdn-images-1.medium.com/max/800/1*lCcpeJVLE8g1YbDJCNYKiw.png)
+![app fatigue](https://cdn-images-1.medium.com/max/800/1*lCcpeJVLE8g1YbDJCNYKiw.png)
 
 > US smartphone users’ number of app downloads per month
 
 We’ve produced an extensive [review of messaging app platforms that are suitable
 for
-chatbots](http://atchai.com/blog/2016-08-11-whos-winning-the-messenger-app-wars/),
+chatbots](/blog/2016-08-11-whos-winning-the-messenger-app-wars/),
 which is good background reading. Make this decision based on hard evidence if
 you can, rather than trying to match up the demographics of your audience and
 the apps. In the same way that you would review Google Analytics before
@@ -63,7 +62,7 @@ always fall back on it if necessary. While it cannot offer some of the more
 graphical UI elements that other messaging apps do, we automatically translate
 these into a text-only equivalent.
 
-![](/images/blog-chatbot-project-sms-fb.png)
+![SMS and Facebook Messenger Bot development](/images/blog-chatbot-project-sms-fb.png)
 
 > Automatically making use of the appropriate features on multiple messaging
 platforms
@@ -95,7 +94,7 @@ Before we consider the bot’s personality, we must design conversation flows th
 optimise the process for our customers. This could be seen as the equivalent of
 user journey mapping and wireframes for visual UI projects.
 
-![](https://cdn-images-1.medium.com/max/800/1*nBDZFIqwRXS8oAePBXyYhg.png)
+![Designing conversational UI](https://cdn-images-1.medium.com/max/800/1*nBDZFIqwRXS8oAePBXyYhg.png)
 
 #### Tone of Voice
 
@@ -155,7 +154,7 @@ Typically you will find that your users are spread over multiple platforms, so
 we allow you to handle this transparently, providing you with a single interface
 to all your users regardless of the messaging app they’re using.
 
-![](https://cdn-images-1.medium.com/max/800/1*Xmz9RtGH7Y5w-WlfaqP_EA.gif)
+![Real-time messaging bot UI](https://cdn-images-1.medium.com/max/800/1*Xmz9RtGH7Y5w-WlfaqP_EA.gif)
 
 > Real-time cross-platform messaging UI, allowing you to interact with your users.
 
