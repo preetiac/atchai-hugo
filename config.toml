@@ -5,6 +5,7 @@ theme = "atchai"
 relativeurls = true
 canonifyurls = false
 paginate = 10
+pluralizelisttitles = false
 
 [params]
   prod_baseurl = "http://atchai.com"
