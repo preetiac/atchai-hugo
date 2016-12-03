@@ -134,14 +134,14 @@ click “Start Bot” — you should see your bot come online in Slack.
 ### Great! What Next?
 
 If you’d like your bot to be used by multiple teams then you need to follow this
-article showing how to [deploy your bot as a multi-team slack app](/blog/2016-06-30-develop-multi-team-slack-bots.md)
+article showing how to [deploy your bot as a multi-team slack app](/blog/2016-07-01-develop-multi-team-slack-bots/)
 
 If you’re interested in how to develop your bot into a sophisticated
 conversational UI using NLP then sign up below to get the next post in your
 inbox.
 
 If you can’t wait and you’d like my team and I at Atchai
-to help [develop your chatbot or Slack integration](http://atchai.com), then I’d love to hear from you — [drop me an
+to help [develop your chatbot or Slack integration](http://atchai.com/we-develop/conversational-ui-chatbots/), then I’d love to hear from you — [drop me an
 email](mailto:john@atchai.com).
 
 
