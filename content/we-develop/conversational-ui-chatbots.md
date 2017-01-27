@@ -10,7 +10,7 @@ sitemap:
 Messaging apps have become ubiquitous and can claim higher engagement and more monthly active users than the big four social networks.  Frequently hyped as an answer to "app fatigue", <strong>messaging bots</strong>, or <strong>chatbots</strong>, do not require your users to install a new app, and are often cheaper to build than traditional mobile applications.  
 
 ## Chatbot development
-We have experience developing AI chatbots for all the major messaging platforms including <strong>Slack</strong>, <strong>Facebook Messenger Bots</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Echo (Alexa)</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
+We have experience developing AI chatbots for all the major messaging platforms including <strong>Facebook Messenger</strong>, <strong>Slack</strong>, <strong>SMS-based chat bots</strong>, and voice interfaces such as <strong>Amazon Alexa</strong>.  We can help you understand whether a natural language interface is right for your use case, how to design conversations, and how to apply AI and natural language processing techniques.
 
 <div class="container-fluid img-form">
     <div class="row">

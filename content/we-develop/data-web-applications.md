@@ -1,15 +1,13 @@
 ---
 title: "Data Driven Web Applications"
-h1: "Data Driven Web Applications"
+h1: "Data Driven Applications"
 partial_includes: ["case-studies-data.html", "testimonial-inition.html"]
 sitemap:
     priority: 0.8
 ---
 
 ## Smart and sophisticated
-Modern apps need to do more than just look beautiful. Great <strong>user experience</strong> has become the standard, so in order to differentiate you need to build <strong>innovative technology</strong>.  We develop web applications that use <strong>machine learning</strong> and <strong>natural language processing</strong>.  We work with you in an <a href="about-us/how-we-work/">Agile process</a>, providing full-stack product development.  
-
-As the creators of <a href="https://getdataseed.com">Dataseed</a> - an award-winning <strong>data visualisation</strong> SaaS product, we can help you with all stages of bringing a new product to market.
+Modern apps need to do more than just look beautiful. Great user experience has become the standard, so in order to differentiate you need to build innovative technology.  We develop web applications that use <strong>machine learning</strong> and <strong>natural language processing</strong>.  We work with you in an <a href="about-us/how-we-work/">Agile process</a>, providing full-stack product development.  
 
 
 ## Cutting Edge Technology 
