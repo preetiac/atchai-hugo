@@ -4,7 +4,7 @@ date = "2016-01-27"
 +++
 
 
-Established in 2010, Atchai is a digital consultancy and development house based in London, UK.  We work closely with clients to [develop innovative digital products](/we-develop/product-development), specialising in [data-driven web applications](/we-develop/data-web-applications) and [conversational UI / chatbots](/we-develop/conversational-ui-chatbots).
+Established in 2010, Atchai is a digital consultancy and development house based in London, UK.  We work closely with customers to [develop innovative digital products](/we-develop/product-development), specialising in [data-driven applications](/we-develop/data-web-applications) and [conversational UI / chatbots](/we-develop/conversational-ui-chatbots).
 
 Our work is driven by new technology, user centred design and [Agile methodologies](/about-us/how-we-work). What makes us different is the team we work with; all our people are experts in their field and have world-class credentials to back it up.  We are a small, specialised team and we offer a highly personal and collaborative service to our clients.
 
@@ -20,6 +20,18 @@ To find out about what we can do for you, [give us a call or send us an email](#
 >
 > <cite>Adrian Leu - 
 > Inition</cite>
+
+<!-- -->
+
+
+> What I like about working with Atchai is that they take the time at the beginning of the project to understand the big picture before choosing the right tech stack for the job.
+>
+> What they delivered was cutting edge, very high quality software.
+>
+>All work was delivered on time, on budget, to a very high standard with clear, honest communication throughout.
+>
+> <cite>Niels Bischoff - 
+> Mindbot</cite>
 
 <!-- -->
 
