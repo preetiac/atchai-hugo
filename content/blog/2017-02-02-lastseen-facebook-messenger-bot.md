@@ -12,7 +12,7 @@ LastSeen is a simple chatbot that asks the user to check-in once a day and notif
 
 ![LastSeen facebook chatbot](/img/lastseen-white.png)
 
-The project is a collaboration with [Tom Hewitson](https://twitter.com/tomhewitson).  Tom's father passed away last year.  Once the inital shock had subsided he found himself often worrying about his mum now that she was on her own.  As he was calling to check in on her every day he had the idea for LastSeen.
+The project is a collaboration with [Tom Hewitson](https://twitter.com/tomhewitson).  Tom's father passed away last year.  Once the initial shock had subsided he found himself often worrying about his mum now that she was on her own.  As he was calling to check in on her every day he had the idea for LastSeen.
 
 The product was designed initially for older people living alone, providing them with a daily reminder that someone cares about them, and offering their children the security of knowing that their parents are safe. 
 
