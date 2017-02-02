@@ -1,6 +1,9 @@
 ---
-title: LastSeen
-date: "2017-01-31"
+date: "2017-02-02"
+published: true
+title: "LastSeen - a chatbot that knows you're safe"
+author: JohnGriffin
+header_image: "/images/blog-header-generic.png"
 ---
 
 
@@ -9,14 +12,16 @@ LastSeen is a simple chatbot that asks the user to check-in once a day and notif
 
 ![LastSeen facebook chatbot](/img/lastseen-white.png)
 
-It was designed initially for older people living alone, providing them with a reminder that someone cares about them, and offering their children the security of knowing that their parents are safe. 
+The project is a collaboration with [Tom Hewitson](https://twitter.com/tomhewitson).  Tom's father passed away last year.  Once the inital shock had subsided he found himself often worrying about his mum now that she was on her own.  As he was calling to check in on her every day he had the idea for LastSeen.
 
-The product has however found more traction with a younger audience, especially young professional women living alone, students living away from home for the first time, and dog walkers!
+The product was designed initially for older people living alone, providing them with a daily reminder that someone cares about them, and offering their children the security of knowing that their parents are safe. 
+
+It has however found more traction with a younger audience, especially young professional women living alone, students living away from home for the first time, and dog walkers!
 
 ## Design 
 We always work in a lean process where we aim to deliver a "minimum viable product" as soon as possible.  In this case we delivered our first iteration within a week.
 
-We worked with <a href="https://twitter.com/tomhewitson">Tom Hewitson</a> to design the product, he was also responsible for all the copywriting.  Before committing anything to code, prototypes are created using off-the-shelf tools.  This is an early prototype:
+Before committing anything to code, prototypes are created using off-the-shelf tools.  This is an early prototype:
 
 ![LastSeen Prototype](/images/lastseen-chatfuel.gif)
 
