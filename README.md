@@ -38,16 +38,6 @@ Usage is illustrated [here](https://github.com/atchai/atchai-hugo/blob/master/th
 
 
 
-## JS / CSS Pipeline
-* ```cd themes/atchai/static```
-* ```bower install```
-* add bower dependencies into src folder
-* compile /src/sass/index.sass into /dist/css/index.min.css
-* compile /src/respond/src/respond.js into /dist/js/respond.min.js
-* compile /src/bootstrap-sass/assets/javascript/bootstrap.js into /dist/js/bootstrap.min.js
-* copy /src/html5shiv/dist/html5shiv.min.js into /dist/js directory
-* copy /src/jquery/dist/jquery.min.js into /dist/js directory
-
 ## Deployment Workflow
 Wercker has been set up to generate the static site, then deploy to Amazon S3.  
 

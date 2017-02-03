@@ -23,7 +23,7 @@ Initially we’re partnering with [The Star in Kenya](http://www.the-star.co.ke/
 
 ## Coming Soon
 
-If you're interested in being a beta tester then [drop us a mail](eyewitness-beta@atchai.com) and sign up below for updates.
+If you're interested in being a beta tester then [drop us a mail](mailto:eyewitness-beta@atchai.com) and sign up below for updates.
 
 ## Right now
 We create [bespoke AI and chatbots](/we-develop/conversational-ui-chatbots/) for all sorts of purposes.  If you're interested in exploring the possibilities then please get in touch.
