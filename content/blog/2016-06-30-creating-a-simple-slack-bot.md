@@ -7,7 +7,7 @@ title: "Creating a Simple Slack Bot with Botkit.js and Hosting It For Free"
 
 <p style="text-align: center;"><strong>From Development to Deployment as a Custom Integration</strong></p>
 
-Recently I decided to check out [BeepBoop](https://beepboophq.com/) — a new
+Recently I decided to build a [Slack bot to keep track of links](/portfolio/surly) and host it using [BeepBoop](https://beepboophq.com/) — a new
 hosting service designed specifically for chat bots. Fortunately Beepboop has
 created a nice library that integrates with
 [Botkit](https://github.com/howdyai/botkit), making it easier than ever to
